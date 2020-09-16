@@ -1,0 +1,123 @@
+@import "servicios-ofrecidos";
+@import "quienes-somos";
+@import "buenas-practicas";
+@import "nuestra-flota";
+@import "contacto";
+@import "variables";
+
+footer {
+    background-color: #374089;
+    color: white !important;
+}
+.blanco {
+height: 100px;
+}
+.spacer4 { 
+    h3{ margin-left: 5%;
+    }
+    p {
+    margin-left: 5%;
+}
+}
+.h3{
+    h3{ margin-left: 1%;
+    }
+    p {
+    margin-left: 1%;
+}
+}
+ul {
+    font-size: $font-sizeT;
+}
+
+a { text-decoration: none;
+    img:hover {
+    transform: scale(1.07);
+    transition-duration: 1s;
+}    
+}
+a img {
+    width: 250px !important;
+
+}
+.fa:hover {
+    opacity: 0.7;
+}
+.fa {
+    display: flex;
+    padding: 20px;
+    font-size: 40px;
+    width: 60px;
+    text-decoration: none;
+    margin: 5px 2px;
+}
+footer {
+    height: 300px
+}
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+    
+  }
+  
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+.fa-linkedin {
+    background: #007bb5;
+    color: white;
+}
+.fa-youtube {
+    background: #bb0000;
+    color: white;
+}
+.fa-instagram {
+    background: #E1306C;
+    color: white;
+}    
+.fontR {
+    font-family: 'Roboto Slab', serif;
+    transition: all 3s;
+    margin-top: 0% !important;
+}
+.pawneeta {
+    background-color: transparent;
+    background-image: url(../PNG/PA25.jpg);
+    background-size: cover;
+}
+.at2 {background-color: transparent;
+    background-image: url(../PNG/at2.jpg);
+    background-size: cover;
+    background-position: 50% 50%;
+}
+.grande  {
+    height: 1000px;
+}
+.font {font-family: 'Fira Sans Extra Condensed', sans-serif;
+    font-size: $font-size;
+    color: #3a4045;
+}
+.flex {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+#img2 {
+    justify-content: center; 
+    align-items: flex-start;
+    align-content: flex-start; 
+    
+    color:#e0e0e0;
+}
+#img3 {
+    margin-top: 5px;
+    justify-content: center; 
+    align-items: flex-start;
+    align-content: flex-start; 
+    flex-wrap: wrap;
+    margin-top: 1%;
+    color:#e0e0e0;
+}

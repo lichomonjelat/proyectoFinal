@@ -1,0 +1,34 @@
+@import "variables";
+.spacer div section { 
+    h4{ margin-left: 6%;
+    }
+    p {
+    margin-left: 6%;
+}
+}
+ul {
+    font-size: $font-sizeT;
+}
+a { text-decoration: none;
+    img:hover {
+    transform: scale(1.07);
+}    
+}
+a img {
+    width: 250px !important;
+}
+.fontR {font-family: 'Roboto Slab', serif;
+    transition: all 3s;
+    margin-top: 0% !important;
+}
+.grande  {
+    height: 1000px;
+}
+.font {font-family: 'Fira Sans Extra Condensed', sans-serif;
+    font-size: $font-size;
+    color: #3a4045;
+}
+.flex {
+    display: flex;
+    flex-direction: column;
+}

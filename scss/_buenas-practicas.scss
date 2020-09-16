@@ -1,0 +1,78 @@
+@import "variables";
+.spacer6{ 
+    h2{ margin-left: 1% ;
+    }
+    p {
+    margin-left: 1% ;
+    }    
+     h3{
+    margin-left: 10%;
+     }
+}   
+ul {
+    font-size: $font-sizeT;
+}
+
+a { text-decoration: none;
+    img:hover {
+    transform: scale(1.07);
+}    
+}
+a img {
+    width: 250px !important;
+
+}
+.fontR {
+    font-family: 'Roboto Slab', serif;
+    transition: all 3s;
+    margin-top: 0% !important;
+    color: $font-colorT;
+}
+.font {font-family: 'Fira Sans Extra Condensed', sans-serif;
+    font-size: $font-size;
+    color:$font-colorBody;
+}
+.gridBP {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows:  200px 1000px 400px;
+    grid-template-areas: 
+    "BuenasPracticas BuenasPracticas"
+    "Foto Foto"
+    "queSon QuienesIntegramos";
+
+}
+.buenasPracticas {background-color: transparent;
+    background-image: url(../PNG/buenas-practicas.jpg);
+    background-size: cover;
+    background-position: 50% 50%;
+
+}
+#encabezado {
+    grid-area: BuenasPracticas;
+    padding: 8px;
+}
+
+#foto1 {
+    grid-area: Foto;
+}
+#BP {
+    grid-area: queSon;
+}
+#Quienesintegramos {
+    grid-area: QuienesIntegramos;
+}
+/*@media (min-width: 768px) {
+    
+    .gridBP {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows:  200px 1000px 400px;
+        grid-template-areas:
+         
+    "BuenasPracticas BuenasPracticas"
+    "Foto Foto"
+    "queSon" 
+    "QuienesIntegramos"
+    }
+}*/

@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "variables.css",
+	"sources": [
+		"../scss/variables.scss"
+	],
+	"sourcesContent": [
+		"$font-sizeT: 1.4rem;\r\n$font-size: 20px;\r\n$font-colorT: black;\r\n$font-colorBody:#3a4045;\r\n\r\n@each $var in list {\r\n    \r\n}"
+	],
+	"names": [],
+	"mappings": ""
+}

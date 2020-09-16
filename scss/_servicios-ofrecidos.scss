@@ -1,0 +1,118 @@
+@import "variables";
+.spacer3{ 
+    h3{ margin-left: 2% ;
+    }
+    p {
+    margin-left: 5%;
+    }
+     h4{
+    margin-left: 5% ;
+}
+}    
+ul {
+    font-size: $font-sizeT;
+}
+
+a { text-decoration: none;
+    img:hover {
+    transform: scale(1.07);
+}    
+}
+a img {
+    width: 250px !important;
+}
+table {
+    border-collapse: collapse;
+    width: 100%;
+}  
+th, td {
+    background-color: #e6f1fa;
+    text-align: left;
+    padding: 20px;
+}
+th {
+    background-color:#6c97b8;
+    color: white;
+}
+.fontR {
+    font-family: 'Roboto Slab', serif;
+    transition: all 3s;
+    margin-top: 0% !important;
+}
+.grande  {
+    height: 1000px;
+}
+.font {font-family: 'Fira Sans Extra Condensed', sans-serif;
+    font-size: $font-size;
+    color: #3a4045;
+}
+.flex {
+    display: flex;
+    flex-direction: column;
+    
+}
+.grid{
+    
+    height: 300px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 300px;
+    grid-template-areas: 
+    "masInfo copyright socialMedia";
+    justify-items: center;
+}
+
+#encabezado {
+    grid-area: BuenasPracticas;
+    padding: 8px;
+}
+
+#foto1 {
+    grid-area: Foto;
+}
+#BP {
+    grid-area: queSon;
+}
+#siembra{background-color: transparent;
+    background-image: url(../PNG/siembra-aérea.jpg);
+    background-size: cover;
+    background-position: 50% 50%;
+    justify-content: center; 
+    align-items: flex-start;
+    align-content: flex-start;
+    color: white;
+    margin-bottom: 1%;
+
+}
+#fertilizaciones{background-color: transparent;
+    background-image: url(../PNG/fertilizacion.jpg);
+    background-size: cover;
+    background-position: 50% 50%;
+    justify-content: center; 
+    align-items: flex-start;
+    align-content: flex-start;
+    margin-bottom: 1%;
+    color: white;
+
+}
+#traslados{background-color: transparent;
+    background-image: url(../PNG/wingview.png);
+    background-size: cover;
+    background-position: 50% 50%;
+    justify-content: center; 
+    align-items: flex-start;
+    align-content: flex-start;
+    margin-bottom: 1%;
+
+}
+#pulverizaciones{background-color: transparent;
+    background-image: url(../PNG/pulverizaciones.jpg);
+    background-size: cover;
+    background-position: 50% 50%;
+    margin-top: 5px;
+    justify-content: center; 
+    align-items: flex-start;
+    align-content: flex-start;
+    color: white;
+    margin-bottom: 1%;
+}
