@@ -5,9 +5,28 @@
 @import "contacto";
 @import "variables";
 
+
 footer {
     background-color: #374089;
+}
+footer section p {
     color: white !important;
+}
+.div-compromiso {
+    font-weight: 700;
+    text-align: center;
+    height: 200px;
+    background-color: #00865f;
+}
+.compromiso {
+    font-family: 'Roboto', sans-serif;
+    font-size: 64px;
+    color: #3a4045;
+}
+.compromiso2{
+    font-family: 'Roboto', sans-serif;
+    font-size: 32px;
+    color:  #3a4045;
 }
 .blanco {
 height: 100px;
@@ -52,7 +71,8 @@ a img {
     margin: 5px 2px;
 }
 footer {
-    height: 300px
+    height: 300px;
+    color: white !important;
 }
 
 .fa-facebook {
@@ -112,7 +132,7 @@ footer {
     
     color:#e0e0e0;
 }
-#img3 {
+/*#img3 {
     margin-top: 5px;
     justify-content: center; 
     align-items: flex-start;
@@ -121,3 +141,4 @@ footer {
     margin-top: 1%;
     color:#e0e0e0;
 }
+*/

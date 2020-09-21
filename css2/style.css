@@ -269,36 +269,31 @@ th {
 }
 
 /* line 3, ../Coder/scss/_quienes-somos.scss */
-.spacer2 section h3 {
-  margin-left: 1%;
+.body {
+  background-image: url(../PNG/wheat.jpg);
 }
 
-/* line 5, ../Coder/scss/_quienes-somos.scss */
-.spacer2 section p {
-  margin-left: 1%;
-}
-
-/* line 9, ../Coder/scss/_quienes-somos.scss */
+/* line 7, ../Coder/scss/_quienes-somos.scss */
 ul {
   font-size: 1.3rem;
 }
 
-/* line 13, ../Coder/scss/_quienes-somos.scss */
+/* line 11, ../Coder/scss/_quienes-somos.scss */
 a {
   text-decoration: none;
 }
 
-/* line 14, ../Coder/scss/_quienes-somos.scss */
+/* line 12, ../Coder/scss/_quienes-somos.scss */
 a img:hover {
   transform: scale(1.07);
 }
 
-/* line 18, ../Coder/scss/_quienes-somos.scss */
+/* line 16, ../Coder/scss/_quienes-somos.scss */
 a img {
   width: 250px !important;
 }
 
-/* line 22, ../Coder/scss/_quienes-somos.scss */
+/* line 20, ../Coder/scss/_quienes-somos.scss */
 .fontR {
   font-family: 'Roboto Slab', serif;
   transition: all 3s;
@@ -306,42 +301,22 @@ a img {
   font-size: 1.4rem !important;
 }
 
-/* line 27, ../Coder/scss/_quienes-somos.scss */
+/* line 25, ../Coder/scss/_quienes-somos.scss */
 .grande div {
   height: 1000px;
 }
 
-/* line 30, ../Coder/scss/_quienes-somos.scss */
+/* line 28, ../Coder/scss/_quienes-somos.scss */
 .font {
   font-family: 'Fira Sans Extra Condensed', sans-serif;
   font-size: 1.4rem;
   color: #3a4045;
 }
 
-/* line 34, ../Coder/scss/_quienes-somos.scss */
+/* line 32, ../Coder/scss/_quienes-somos.scss */
 .flex {
   display: flex;
   flex-direction: column;
-}
-
-/* line 39, ../Coder/scss/_quienes-somos.scss */
-.maizal {
-  background-color: transparent;
-  background-image: url(../PNG/maizal.jpg);
-  background-size: cover;
-  background-position: 50% 50%;
-}
-
-/* line 45, ../Coder/scss/_quienes-somos.scss */
-#quienesSomos {
-  width: 100%;
-  height: 1080px;
-  display: flex;
-  flex-direction: column;
-  color: white;
-  justify-content: center;
-  align-items: flex-end;
-  align-content: flex-start;
 }
 
 /* line 7, ../Coder/scss/_variables.scss */
@@ -769,64 +744,90 @@ a img {
   margin-bottom: 1%;
 }
 
-/* line 8, ../Coder/scss/style.scss */
+/* line 9, ../Coder/scss/style.scss */
 footer {
   background-color: #374089;
-  color: white !important;
 }
 
 /* line 12, ../Coder/scss/style.scss */
+footer section p {
+  color: white !important;
+}
+
+/* line 15, ../Coder/scss/style.scss */
+.div-compromiso {
+  font-weight: 700;
+  text-align: center;
+  height: 200px;
+  background-color: #00865f;
+}
+
+/* line 21, ../Coder/scss/style.scss */
+.compromiso {
+  font-family: 'Roboto', sans-serif;
+  font-size: 64px;
+  color: #3a4045;
+}
+
+/* line 26, ../Coder/scss/style.scss */
+.compromiso2 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 32px;
+  color: #3a4045;
+}
+
+/* line 31, ../Coder/scss/style.scss */
 .blanco {
   height: 100px;
 }
 
-/* line 16, ../Coder/scss/style.scss */
+/* line 35, ../Coder/scss/style.scss */
 .spacer4 h3 {
   margin-left: 5%;
 }
 
-/* line 18, ../Coder/scss/style.scss */
+/* line 37, ../Coder/scss/style.scss */
 .spacer4 p {
   margin-left: 5%;
 }
 
-/* line 23, ../Coder/scss/style.scss */
+/* line 42, ../Coder/scss/style.scss */
 .h3 h3 {
   margin-left: 1%;
 }
 
-/* line 25, ../Coder/scss/style.scss */
+/* line 44, ../Coder/scss/style.scss */
 .h3 p {
   margin-left: 1%;
 }
 
-/* line 29, ../Coder/scss/style.scss */
+/* line 48, ../Coder/scss/style.scss */
 ul {
   font-size: 1.4rem;
 }
 
-/* line 33, ../Coder/scss/style.scss */
+/* line 52, ../Coder/scss/style.scss */
 a {
   text-decoration: none;
 }
 
-/* line 34, ../Coder/scss/style.scss */
+/* line 53, ../Coder/scss/style.scss */
 a img:hover {
   transform: scale(1.07);
   transition-duration: 1s;
 }
 
-/* line 39, ../Coder/scss/style.scss */
+/* line 58, ../Coder/scss/style.scss */
 a img {
   width: 250px !important;
 }
 
-/* line 43, ../Coder/scss/style.scss */
+/* line 62, ../Coder/scss/style.scss */
 .fa:hover {
   opacity: 0.7;
 }
 
-/* line 46, ../Coder/scss/style.scss */
+/* line 65, ../Coder/scss/style.scss */
 .fa {
   display: flex;
   padding: 20px;
@@ -836,56 +837,57 @@ a img {
   margin: 5px 2px;
 }
 
-/* line 54, ../Coder/scss/style.scss */
+/* line 73, ../Coder/scss/style.scss */
 footer {
   height: 300px;
+  color: white !important;
 }
 
-/* line 58, ../Coder/scss/style.scss */
+/* line 78, ../Coder/scss/style.scss */
 .fa-facebook {
   background: #3B5998;
   color: white;
 }
 
-/* line 64, ../Coder/scss/style.scss */
+/* line 84, ../Coder/scss/style.scss */
 .fa-twitter {
   background: #55ACEE;
   color: white;
 }
 
-/* line 68, ../Coder/scss/style.scss */
+/* line 88, ../Coder/scss/style.scss */
 .fa-linkedin {
   background: #007bb5;
   color: white;
 }
 
-/* line 72, ../Coder/scss/style.scss */
+/* line 92, ../Coder/scss/style.scss */
 .fa-youtube {
   background: #bb0000;
   color: white;
 }
 
-/* line 76, ../Coder/scss/style.scss */
+/* line 96, ../Coder/scss/style.scss */
 .fa-instagram {
   background: #E1306C;
   color: white;
 }
 
-/* line 80, ../Coder/scss/style.scss */
+/* line 100, ../Coder/scss/style.scss */
 .fontR {
   font-family: 'Roboto Slab', serif;
   transition: all 3s;
   margin-top: 0% !important;
 }
 
-/* line 85, ../Coder/scss/style.scss */
+/* line 105, ../Coder/scss/style.scss */
 .pawneeta {
   background-color: transparent;
   background-image: url(../PNG/PA25.jpg);
   background-size: cover;
 }
 
-/* line 90, ../Coder/scss/style.scss */
+/* line 110, ../Coder/scss/style.scss */
 .at2 {
   background-color: transparent;
   background-image: url(../PNG/at2.jpg);
@@ -893,25 +895,25 @@ footer {
   background-position: 50% 50%;
 }
 
-/* line 95, ../Coder/scss/style.scss */
+/* line 115, ../Coder/scss/style.scss */
 .grande {
   height: 1000px;
 }
 
-/* line 98, ../Coder/scss/style.scss */
+/* line 118, ../Coder/scss/style.scss */
 .font {
   font-family: 'Fira Sans Extra Condensed', sans-serif;
   font-size: 1.4rem;
   color: #3a4045;
 }
 
-/* line 102, ../Coder/scss/style.scss */
+/* line 122, ../Coder/scss/style.scss */
 .flex {
   display: flex;
   flex-direction: column;
 }
 
-/* line 108, ../Coder/scss/style.scss */
+/* line 128, ../Coder/scss/style.scss */
 #img2 {
   justify-content: center;
   align-items: flex-start;
@@ -919,15 +921,15 @@ footer {
   color: #e0e0e0;
 }
 
-/* line 115, ../Coder/scss/style.scss */
-#img3 {
-  margin-top: 5px;
-  justify-content: center;
-  align-items: flex-start;
-  align-content: flex-start;
-  flex-wrap: wrap;
-  margin-top: 1%;
-  color: #e0e0e0;
+/*#img3 {
+    margin-top: 5px;
+    justify-content: center; 
+    align-items: flex-start;
+    align-content: flex-start; 
+    flex-wrap: wrap;
+    margin-top: 1%;
+    color:#e0e0e0;
 }
+*/
 
 /*# sourceMappingURL=style.css.map */
