@@ -30,23 +30,6 @@ footer section p {
     color:   #ffffff;
     
 }
-.blanco {
-height: 100px;
-}
-.spacer4 { 
-    h3{ margin-left: 5%;
-    }
-    p {
-    margin-left: 5%;
-}
-}
-.h3{
-    h3{ margin-left: 1%;
-    }
-    p {
-    margin-left: 1%;
-}
-}
 ul {
     font-size: $font-sizeT;
 }
@@ -82,27 +65,24 @@ footer {
 }
 
 .fa-facebook {
-    background: #3B5998;
-    color: white;
-
-    
-  }
-  
+    background: #f8f9fa;
+    color: #3B5998;
+}
 .fa-twitter {
-    background: #55ACEE;
-    color: white;
+    background: #f8f9fa;
+    color:  #55ACEE;
 }
 .fa-linkedin {
-    background: #007bb5;
-    color: white;
+    background: #f8f9fa;
+    color: #007bb5;
 }
 .fa-youtube {
-    background: #bb0000;
-    color: white;
+    background:#f8f9fa;
+    color: #bb0000;
 }
 .fa-instagram {
-    background: #E1306C;
-    color: white;
+    background: #f8f9fa;
+    color: #E1306C;
 }    
 .fontR {
     font-family: 'Poppins', sans-serif;

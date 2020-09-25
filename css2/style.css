@@ -72,7 +72,7 @@
 
 /* line 12, ../Coder/scss/_servicios-ofrecidos.scss */
 ul {
-  font-size: 1.4rem;
+  font-size: 1vw;
 }
 
 /* line 16, ../Coder/scss/_servicios-ofrecidos.scss */
@@ -124,7 +124,7 @@ th {
 /* line 45, ../Coder/scss/_servicios-ofrecidos.scss */
 .font {
   font-family: 'Fira Sans Extra Condensed', sans-serif;
-  font-size: 1.4rem;
+  font-size: 1vw;
   color: #3a4045;
 }
 
@@ -298,7 +298,7 @@ a img {
   font-family: 'Roboto Slab', serif;
   transition: all 3s;
   margin-top: 0% !important;
-  font-size: 1.4rem !important;
+  font-size: 1vw !important;
 }
 
 /* line 25, ../Coder/scss/_quienes-somos.scss */
@@ -309,7 +309,7 @@ a img {
 /* line 28, ../Coder/scss/_quienes-somos.scss */
 .font {
   font-family: 'Fira Sans Extra Condensed', sans-serif;
-  font-size: 1.4rem;
+  font-size: 1vw;
   color: #3a4045;
 }
 
@@ -392,7 +392,7 @@ a img {
 
 /* line 12, ../Coder/scss/_buenas-practicas.scss */
 ul {
-  font-size: 1.4rem;
+  font-size: 1vw;
 }
 
 /* line 16, ../Coder/scss/_buenas-practicas.scss */
@@ -421,7 +421,7 @@ a img {
 /* line 31, ../Coder/scss/_buenas-practicas.scss */
 .font {
   font-family: 'Fira Sans Extra Condensed', sans-serif;
-  font-size: 1.4rem;
+  font-size: 1vw;
   color: #3a4045;
 }
 
@@ -533,58 +533,149 @@ a img {
 }
 
 /* line 3, ../Coder/scss/_nuestra-flota.scss */
-.spacer div section h4 {
-  margin-left: 6%;
+.body-bg {
+  background-color: rgba(0, 0, 0, 0.1);
 }
 
-/* line 5, ../Coder/scss/_nuestra-flota.scss */
-.spacer div section p {
-  margin-left: 6%;
+/* line 6, ../Coder/scss/_nuestra-flota.scss */
+ul {
+  font-size: 1vw;
 }
 
 /* line 9, ../Coder/scss/_nuestra-flota.scss */
-ul {
-  font-size: 1.4rem;
-}
-
-/* line 12, ../Coder/scss/_nuestra-flota.scss */
 a {
   text-decoration: none;
 }
 
-/* line 13, ../Coder/scss/_nuestra-flota.scss */
+/* line 10, ../Coder/scss/_nuestra-flota.scss */
 a img:hover {
   transform: scale(1.07);
 }
 
-/* line 17, ../Coder/scss/_nuestra-flota.scss */
+/* line 14, ../Coder/scss/_nuestra-flota.scss */
 a img {
   width: 250px !important;
 }
 
-/* line 20, ../Coder/scss/_nuestra-flota.scss */
-.fontR {
-  font-family: 'Roboto Slab', serif;
-  transition: all 3s;
-  margin-top: 0% !important;
-}
-
-/* line 24, ../Coder/scss/_nuestra-flota.scss */
+/* line 17, ../Coder/scss/_nuestra-flota.scss */
 .grande {
   height: 1000px;
 }
 
-/* line 27, ../Coder/scss/_nuestra-flota.scss */
+/* line 20, ../Coder/scss/_nuestra-flota.scss */
 .font {
   font-family: 'Fira Sans Extra Condensed', sans-serif;
-  font-size: 1.4rem;
+  font-size: 1vw;
   color: #3a4045;
 }
 
-/* line 31, ../Coder/scss/_nuestra-flota.scss */
-.flex {
-  display: flex;
-  flex-direction: column;
+/* line 24, ../Coder/scss/_nuestra-flota.scss */
+.font-qs {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  font-size: 1vw;
+}
+
+/* line 29, ../Coder/scss/_nuestra-flota.scss */
+.container-qs {
+  position: relative;
+  width: 100%;
+}
+
+/* line 33, ../Coder/scss/_nuestra-flota.scss */
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+/* line 38, ../Coder/scss/_nuestra-flota.scss */
+.overlay1 {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+/* line 50, ../Coder/scss/_nuestra-flota.scss */
+.overlay2 {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #e53d3c7d;
+}
+
+/* line 62, ../Coder/scss/_nuestra-flota.scss */
+.overlay3 {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #4b89c68c;
+}
+
+/* line 74, ../Coder/scss/_nuestra-flota.scss */
+.overlay4 {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #100b0d7d;
+}
+
+/* line 86, ../Coder/scss/_nuestra-flota.scss */
+.container-qs:hover .overlay1 {
+  opacity: 1;
+}
+
+/* line 89, ../Coder/scss/_nuestra-flota.scss */
+.container-qs:hover .overlay2 {
+  opacity: 1;
+}
+
+/* line 92, ../Coder/scss/_nuestra-flota.scss */
+.container-qs:hover .overlay3 {
+  opacity: 1;
+}
+
+/* line 95, ../Coder/scss/_nuestra-flota.scss */
+.container-qs:hover .overlay4 {
+  opacity: 1;
+}
+
+/* line 98, ../Coder/scss/_nuestra-flota.scss */
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
 }
 
 /* line 7, ../Coder/scss/_variables.scss */
@@ -655,7 +746,7 @@ a img {
 
 /* line 9, ../Coder/scss/_contacto.scss */
 ul {
-  font-size: 1.4rem;
+  font-size: 1vw;
 }
 
 /* line 13, ../Coder/scss/_contacto.scss */
@@ -684,7 +775,7 @@ a img {
 /* line 28, ../Coder/scss/_contacto.scss */
 .font {
   font-family: 'Fira Sans Extra Condensed', sans-serif;
-  font-size: 1.4rem;
+  font-size: 1vw;
   color: #3a4045;
 }
 
@@ -777,58 +868,33 @@ footer section p {
 }
 
 /* line 33, ../Coder/scss/style.scss */
-.blanco {
-  height: 100px;
+ul {
+  font-size: 1vw;
 }
 
 /* line 37, ../Coder/scss/style.scss */
-.spacer4 h3 {
-  margin-left: 5%;
-}
-
-/* line 39, ../Coder/scss/style.scss */
-.spacer4 p {
-  margin-left: 5%;
-}
-
-/* line 44, ../Coder/scss/style.scss */
-.h3 h3 {
-  margin-left: 1%;
-}
-
-/* line 46, ../Coder/scss/style.scss */
-.h3 p {
-  margin-left: 1%;
-}
-
-/* line 50, ../Coder/scss/style.scss */
-ul {
-  font-size: 1.4rem;
-}
-
-/* line 54, ../Coder/scss/style.scss */
 a {
   text-decoration: none;
 }
 
-/* line 55, ../Coder/scss/style.scss */
+/* line 38, ../Coder/scss/style.scss */
 a img:hover {
   transform: scale(1.07);
   transition-duration: 1s;
 }
 
-/* line 60, ../Coder/scss/style.scss */
+/* line 43, ../Coder/scss/style.scss */
 a img {
   width: 250px !important;
 }
 
-/* line 64, ../Coder/scss/style.scss */
+/* line 47, ../Coder/scss/style.scss */
 .fa:hover {
   opacity: 0.7;
   text-decoration: none;
 }
 
-/* line 69, ../Coder/scss/style.scss */
+/* line 52, ../Coder/scss/style.scss */
 .fa {
   display: flex;
   padding: 20px;
@@ -839,92 +905,92 @@ a img {
   transition: .2s ease all;
 }
 
-/* line 79, ../Coder/scss/style.scss */
+/* line 62, ../Coder/scss/style.scss */
 footer {
   height: 300px;
   color: white !important;
 }
 
-/* line 84, ../Coder/scss/style.scss */
+/* line 67, ../Coder/scss/style.scss */
 .fa-facebook {
-  background: #3B5998;
-  color: white;
+  background: #f8f9fa;
+  color: #3B5998;
 }
 
-/* line 91, ../Coder/scss/style.scss */
+/* line 71, ../Coder/scss/style.scss */
 .fa-twitter {
-  background: #55ACEE;
-  color: white;
+  background: #f8f9fa;
+  color: #55ACEE;
 }
 
-/* line 95, ../Coder/scss/style.scss */
+/* line 75, ../Coder/scss/style.scss */
 .fa-linkedin {
-  background: #007bb5;
-  color: white;
+  background: #f8f9fa;
+  color: #007bb5;
 }
 
-/* line 99, ../Coder/scss/style.scss */
+/* line 79, ../Coder/scss/style.scss */
 .fa-youtube {
-  background: #bb0000;
-  color: white;
+  background: #f8f9fa;
+  color: #bb0000;
 }
 
-/* line 103, ../Coder/scss/style.scss */
+/* line 83, ../Coder/scss/style.scss */
 .fa-instagram {
-  background: #E1306C;
-  color: white;
+  background: #f8f9fa;
+  color: #E1306C;
 }
 
-/* line 107, ../Coder/scss/style.scss */
+/* line 87, ../Coder/scss/style.scss */
 .fontR {
   font-family: 'Poppins', sans-serif;
   transition: all 3s;
   margin-top: 0% !important;
 }
 
-/* line 112, ../Coder/scss/style.scss */
+/* line 92, ../Coder/scss/style.scss */
 #pawneeta {
   background-color: transparent;
   background-image: url(../PNG/PA25.jpg);
 }
 
-/* line 118, ../Coder/scss/style.scss */
+/* line 98, ../Coder/scss/style.scss */
 #airTractor-2 {
   background-color: transparent;
   background-image: url(../PNG/at2.jpg);
 }
 
-/* line 123, ../Coder/scss/style.scss */
+/* line 103, ../Coder/scss/style.scss */
 .bg-full {
   background-size: cover;
   background-position: 50% 50%;
   position: relative;
 }
 
-/* line 128, ../Coder/scss/style.scss */
+/* line 108, ../Coder/scss/style.scss */
 .bg-full * {
   z-index: 1;
 }
 
-/* line 131, ../Coder/scss/style.scss */
+/* line 111, ../Coder/scss/style.scss */
 .grande {
   height: 1000px;
 }
 
-/* line 134, ../Coder/scss/style.scss */
+/* line 114, ../Coder/scss/style.scss */
 .font {
   font-family: 'Poppins', sans-serif;
-  font-size: 1.4rem;
+  font-size: 1vw;
   color: #3a4045;
 }
 
-/* line 138, ../Coder/scss/style.scss */
+/* line 118, ../Coder/scss/style.scss */
 .flex {
   display: flex;
   flex-direction: column;
 }
 
-/* line 143, ../Coder/scss/style.scss */
+/* line 123, ../Coder/scss/style.scss */
 .bg-full::before {
   content: "";
   background-color: rgba(0, 0, 0, 0.4);

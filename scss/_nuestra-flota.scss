@@ -1,10 +1,7 @@
 @import "variables";
-.spacer div section { 
-    h4{ margin-left: 6%;
-    }
-    p {
-    margin-left: 6%;
-}
+
+.body-bg{
+        background-color: rgba(0, 0, 0, 0.1);
 }
 ul {
     font-size: $font-sizeT;
@@ -17,10 +14,6 @@ a { text-decoration: none;
 a img {
     width: 250px !important;
 }
-.fontR {font-family: 'Roboto Slab', serif;
-    transition: all 3s;
-    margin-top: 0% !important;
-}
 .grande  {
     height: 1000px;
 }
@@ -28,7 +21,88 @@ a img {
     font-size: $font-size;
     color: #3a4045;
 }
-.flex {
-    display: flex;
-    flex-direction: column;
+.font-qs{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: $font-size;
 }
+.container-qs {
+    position: relative;
+    width: 100%;
+}
+.image {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+.overlay1 {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color:rgba(0, 0, 0, 0.4);
+}
+.overlay2 {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #e53d3c7d;
+}
+.overlay3 {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color:#4b89c68c;
+}
+.overlay4 {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #100b0d7d;
+}
+.container-qs:hover .overlay1 {
+    opacity: 1;
+}
+.container-qs:hover .overlay2 {
+    opacity: 1;
+}
+.container-qs:hover .overlay3 {
+    opacity: 1;
+}
+.container-qs:hover .overlay4 {
+    opacity: 1;
+}
+.text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
