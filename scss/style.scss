@@ -84,11 +84,7 @@ footer {
     background: #f8f9fa;
     color: #E1306C;
 }    
-.fontR {
-    font-family: 'Poppins', sans-serif;
-    transition: all 3s;
-    margin-top: 0% !important;
-}
+
 #pawneeta {
     
     background-color: transparent;
@@ -115,10 +111,9 @@ footer {
     font-size: $font-size;
     color: #3a4045;
 }
-.flex {
-    display: flex;
-    flex-direction: column;
-    
+.fontR {font-family: 'Poppins', sans-serif;
+    font-size: $font-size;
+    color: #3a4045;
 }
 .bg-full::before{
     content: "";

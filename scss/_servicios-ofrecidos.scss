@@ -34,11 +34,7 @@ th {
     background-color:#6c97b8;
     color: white;
 }
-.fontR {
-    font-family: 'Roboto Slab', serif;
-    transition: all 3s;
-    margin-top: 0% !important;
-}
+
 .grande  {
     height: 1000px;
 }
@@ -51,35 +47,12 @@ th {
     flex-direction: column;
     
 }
-.grid{
-    
-    height: 300px;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 300px;
-    grid-template-areas: 
-    "masInfo copyright socialMedia";
-    justify-items: center;
-}
 
-#encabezado {
-    grid-area: BuenasPracticas;
-    padding: 8px;
-}
-
-#foto1 {
-    grid-area: Foto;
-}
-#BP {
-    grid-area: queSon;
-}
 #siembra{background-color: transparent;
     background-image: url(../PNG/siembra-aérea.jpg);
     background-size: cover;
     background-position: 50% 50%;
-    justify-content: center; 
-    align-items: flex-start;
-    align-content: flex-start;
+   
     color: white;
     margin-bottom: 1%;
 
@@ -88,9 +61,7 @@ th {
     background-image: url(../PNG/fertilizacion.jpg);
     background-size: cover;
     background-position: 50% 50%;
-    justify-content: center; 
-    align-items: flex-start;
-    align-content: flex-start;
+    
     margin-bottom: 1%;
     color: white;
 
@@ -99,10 +70,9 @@ th {
     background-image: url(../PNG/wingview.png);
     background-size: cover;
     background-position: 50% 50%;
-    justify-content: center; 
-    align-items: flex-start;
-    align-content: flex-start;
+    
     margin-bottom: 1%;
+    color: white;
 
 }
 #pulverizaciones{background-color: transparent;
@@ -110,9 +80,17 @@ th {
     background-size: cover;
     background-position: 50% 50%;
     margin-top: 5px;
-    justify-content: center; 
-    align-items: flex-start;
-    align-content: flex-start;
+    
     color: white;
     margin-bottom: 1%;
+}
+.font-section{
+    font-family: 'Poppins', sans-serif;
+    
+    font-size: 2em;
+}
+.font-section2{
+    font-family: 'Poppins', sans-serif;
+    
+    font-size: 1em;
 }
