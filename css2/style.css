@@ -382,7 +382,7 @@ a img {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 200px 1000px 400px;
-  grid-template-areas: "BuenasPracticas BuenasPracticas" "Foto Foto" "queSon QuienesIntegramos";
+  grid-template-areas: "BuenasPracticas BuenasPracticas" "Foto Foto" "queSon QuienesIntegramos";
 }
 
 /* line 40, ../Coder/scss/_buenas-practicas.scss */
