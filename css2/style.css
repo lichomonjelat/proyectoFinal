@@ -686,48 +686,85 @@ a img {
   margin-bottom: 1%;
 }
 
-/* line 3, ../Coder/scss/_contacto.scss */
-.spacer5 h2 {
-  margin-left: 1%;
-}
-
-/* line 5, ../Coder/scss/_contacto.scss */
-.spacer5 p {
-  margin-left: 1%;
-}
-
-/* line 9, ../Coder/scss/_contacto.scss */
+/* line 2, ../Coder/scss/_contacto.scss */
 ul {
   font-size: 1vw;
 }
 
-/* line 13, ../Coder/scss/_contacto.scss */
+/* line 6, ../Coder/scss/_contacto.scss */
 a {
   text-decoration: none;
 }
 
-/* line 14, ../Coder/scss/_contacto.scss */
+/* line 7, ../Coder/scss/_contacto.scss */
 a img:hover {
   transform: scale(1.07);
 }
 
-/* line 18, ../Coder/scss/_contacto.scss */
+/* line 11, ../Coder/scss/_contacto.scss */
 a img {
   width: 250px !important;
 }
 
-/* line 22, ../Coder/scss/_contacto.scss */
+/* line 15, ../Coder/scss/_contacto.scss */
 .fontR {
-  font-family: 'Roboto Slab', serif;
+  /* font-family: 'Roboto Slab', serif; */
   margin-top: 0% !important;
-  color: black;
+  /* color: black; */
 }
 
-/* line 28, ../Coder/scss/_contacto.scss */
+/* line 21, ../Coder/scss/_contacto.scss */
 .font {
   font-family: 'Fira Sans Extra Condensed', sans-serif;
   font-size: 1vw;
   color: #3a4045;
+}
+
+/* line 25, ../Coder/scss/_contacto.scss */
+.bg-contact {
+  margin: 0%;
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
+  background-image: url(../PNG/bg-contacto.jpg);
+  background-size: cover;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+}
+
+/* line 35, ../Coder/scss/_contacto.scss */
+.contact-form {
+  border-radius: 10px;
+  padding: 72px 55px 90px 55px;
+}
+
+/* line 41, ../Coder/scss/_contacto.scss */
+.contact-wrap {
+  width: 790px;
+  background: #fff;
+  border-radius: 10px;
+  overflow: hidden;
+  padding: 72px 55px 90px 55px;
+  z-index: 1;
+}
+
+/* line 49, ../Coder/scss/_contacto.scss */
+.bg-contact::before {
+  content: "";
+  background-color: rgba(0, 0, 0, 0.4);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+/* line 58, ../Coder/scss/_contacto.scss */
+.contact-header {
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
+  font-size: 39px;
+  color: black;
 }
 
 /* line 7, ../Coder/scss/_variables.scss */
@@ -940,6 +977,15 @@ footer {
   content: "";
   background-color: rgba(0, 0, 0, 0.4);
   position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+/* line 127, ../Coder/scss/style.scss */
+.bg-presupuesto {
+  background-color: rgba(0, 0, 0, 0.4);
   top: 0;
   left: 0;
   width: 100%;
