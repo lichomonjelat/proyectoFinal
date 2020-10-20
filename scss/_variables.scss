@@ -18,3 +18,32 @@ $font-colorBody:#3a4045;
     }
     
 }
+@media (min-width:600px) {
+    
+    $font-size: 14px;
+    $font-sizeT: 30px;
+    .mobile{
+        display: none;
+    }
+
+}
+@media (max-width: 599px) {
+    .desktop{
+        display: none;
+    }
+    .grande{
+        height: 500px !important;
+    }
+    .compromiso{
+        font-size: 25px !important;
+    }
+    .compromiso2{
+        font-size: 15px !important;
+    }
+}
+@media (max-width: 768px) {
+
+    $font-size: 10px;
+    $font-sizeT: 15px;
+
+}

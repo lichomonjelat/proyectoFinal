@@ -3,24 +3,6 @@
 .body-bg{
         background-color: rgba(0, 0, 0, 0.1);
 }
-ul {
-    font-size: $font-sizeT;
-}
-a { text-decoration: none;
-    img:hover {
-    transform: scale(1.07);
-}    
-}
-a img {
-    width: 250px !important;
-}
-.grande  {
-    height: 1000px;
-}
-.font {font-family: 'Fira Sans Extra Condensed', sans-serif;
-    font-size: $font-size;
-    color: #3a4045;
-}
 .font-qs{
     font-family: 'Poppins', sans-serif;
     font-weight: 600;

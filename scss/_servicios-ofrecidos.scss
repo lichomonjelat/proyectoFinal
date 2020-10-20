@@ -1,26 +1,5 @@
 @import "variables";
-.spacer3{ 
-    h3{ margin-left: 2% ;
-    }
-    p {
-    margin-left: 5%;
-    }
-     h4{
-    margin-left: 5% ;
-}
-}    
-ul {
-    font-size: $font-sizeT;
-}
 
-a { text-decoration: none;
-    img:hover {
-    transform: scale(1.07);
-}    
-}
-a img {
-    width: 250px !important;
-}
 table {
     border-collapse: collapse;
     width: 100%;
@@ -33,19 +12,6 @@ th, td {
 th {
     background-color:#6c97b8;
     color: white;
-}
-
-.grande  {
-    height: 1000px;
-}
-.font {font-family: 'Fira Sans Extra Condensed', sans-serif;
-    font-size: $font-size;
-    color: #3a4045;
-}
-.flex {
-    display: flex;
-    flex-direction: column;
-    
 }
 
 #siembra{background-color: transparent;

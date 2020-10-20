@@ -1,32 +1,5 @@
 @import "variables";
-.spacer6{ 
-    h2{ margin-left: 1% ;
-    }
-    p {
-    margin-left: 1% ;
-    }    
-     h3{
-    margin-left: 10%;
-     }
-}   
-ul {
-    font-size: $font-sizeT;
-}
-
-a { text-decoration: none;
-    img:hover {
-    transform: scale(1.07);
-}    
-}
-a img {
-    width: 250px !important;
-
-}
-
-.font {font-family: 'Fira Sans Extra Condensed', sans-serif;
-    font-size: $font-size;
-    color:$font-colorBody;
-}
+  
 .gridBP {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -57,17 +30,3 @@ a img {
 #Quienesintegramos {
     grid-area: QuienesIntegramos;
 }
-/*@media (min-width: 768px) {
-    
-    .gridBP {
-        display: grid;
-        grid-template-columns: 1fr;
-        grid-template-rows:  200px 1000px 400px;
-        grid-template-areas:
-         
-    "BuenasPracticas BuenasPracticas"
-    "Foto Foto"
-    "queSon" 
-    "QuienesIntegramos"
-    }
-}*/
