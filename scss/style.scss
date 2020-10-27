@@ -30,6 +30,7 @@ footer section p {
     color:   #ffffff;
     
 }
+
 a { text-decoration: none;
     img:hover {
     transform: scale(1.07);
@@ -37,7 +38,7 @@ a { text-decoration: none;
 }    
 }
 #logo{
-    width: 250px !important;
+    width: 250px;
 }
 .fa:hover {
     opacity: 0.7;
@@ -87,6 +88,19 @@ a { text-decoration: none;
     background-image: url(../PNG/at2.jpg);
     
 }
+#particles-js{
+  background-color: gray;
+  background-image: url("");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
+}
+#particles-up{
+    position: absolute;
+    top: 20%;
+    left: 20%;
+    right: 20%;
+}
 .bg-full{
     background-size: cover;
     background-position: 50% 50%;
@@ -99,11 +113,11 @@ a { text-decoration: none;
     height: 1000px;
 }
 .font {font-family: 'Poppins', sans-serif;
-    font-size: $font-size;
+    font-size: 15px;
     color: #3a4045;
 }
 .fontR {font-family: 'Poppins', sans-serif;
-    font-size: $font-size;
+    font-size: 1.1vw;
     color: #3a4045;
 }
 .bg-full::before{
@@ -116,13 +130,9 @@ a { text-decoration: none;
     height: 100%;
 }
 .bg-presupuesto{
-    background-color: rgba(0, 0, 0, 0.4);
-   
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-}
+    background-image: url(../PNG/dots.jpg);
+    background-size: cover;
+}    
 .carousel{
     @media (max-width: 750px){
         display: none;

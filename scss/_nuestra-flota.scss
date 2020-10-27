@@ -3,11 +3,6 @@
 .body-bg{
         background-color: rgba(0, 0, 0, 0.1);
 }
-.font-qs{
-    font-family: 'Poppins', sans-serif;
-    font-weight: 600;
-    font-size: $font-size;
-}
 .container-nf {
     position: relative;
     width: 100%;
@@ -16,6 +11,10 @@
     display: block;
     width: 100%;
     height: auto;
+}
+#nf-bg{
+    background-image: url(../PNG/fat_lines.gif);
+    
 }
 .overlay1 {
     position: absolute;
@@ -87,4 +86,7 @@
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
     text-align: center;
-  }
+}
+.font-nf{
+    font-size: 20px;
+}

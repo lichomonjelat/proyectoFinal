@@ -1,11 +1,23 @@
 @import "variables";
-
-.grande div {
-    height: 1000px;
-}
 .flex {
     display: flex;
     flex-direction: column;
     
 }
-
+.font-qs{
+    font-family: 'Poppins', sans-serif;
+    font-size: 40px;
+    color: white
+}
+.font-qs2{
+    font-size: 32px;
+    color:  white
+}
+.font-qs3{
+    font-size: 17px;
+    color: white
+}
+#bg-qs{
+    background-image: url(../PNG/fat_lines_light-2.jpg);
+}
+    
