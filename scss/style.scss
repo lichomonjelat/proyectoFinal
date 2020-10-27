@@ -94,12 +94,15 @@ a { text-decoration: none;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 50% 50%;
+
 }
 #particles-up{
     position: absolute;
     top: 20%;
     left: 20%;
     right: 20%;
+    border-radius: 25px;
+    
 }
 .bg-full{
     background-size: cover;
