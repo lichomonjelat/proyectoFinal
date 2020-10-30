@@ -1,11 +1,12 @@
-var agroquimico =['Glifosato', 'D4D', 'Agrodyne'];
 
-var seleccion =["Siembra", "Fumigaciones", "Traslados", "Funguicidas"];
+
+var seleccion =["Siembra", "Fumigaciones", "Traslados", "Fertilizaciones"];
 
 var costoSiembra = (7);
 var costoFumigacion =(9);
+var costoFerti =(5)
 var costoKilometro =(4.6);
-
+/*--OBTENCION DE DATOS--*/
 var inputNombre = [];    
 function getName(){
     Nombre = $("#tunombre").val();
@@ -42,28 +43,34 @@ localStorage.setItem("distanciaKM", inputKilometros);
 
 function precioSiembra(hectareas, costoSiembra){
     let preciototal= (hectareas * costoSiembra)
-    result.innerHTML = "El costo será de" + " " +preciototal+ " "+ "dolares";
+    $("#result").html("El costo será de" + " " +preciototal+ " "+ "dolares"); 
 }
 function precioFumigacion(hectareas, costoFumigacion){
     let preciototal= (hectareas * costoFumigacion)
-    result.innerHTML = "El costo será de" + " " +preciototal+ " "+ "dolares";
+    $("#result").html("El costo será de" + " " +preciototal+ " "+ "dolares"); 
 
+}
+function precioFerti(hectareas, costoFerti){
+    let preciototal= (hectareas * costoFerti)
+    $("#result").html("El costo será de" + " " +preciototal+ " "+ "dolares"); 
 }
 function precioKilometro(kilometros, costoKilometro){
     let preciototal= (kilometros * costoKilometro)
-    result.innerHTML = "El costo será de" + " " +preciototal+ " "+ "dolares";
+    $("#result").html("El costo será de" + " " +preciototal+ " "+ "dolares"); 
 
 }
 function getData(){
     getName(),getLastname(),getService(),getHectareas(),getKilometros();
 }
-/*$("#submitter").click({
-    getName(),getLastname(),getService(),getHectareas(),getKilometros();
-});*/
+
+$.get( "ajax/https://www.dolarsi.com/api/api.php?type=valoresprincipales", function( data ) {
+    $( ".result" ).html( data );
+    alert( "Load was performed." );
+});
 
 
 
-
+/*--PROCESO PRINCIPAL--*/
 
 switch(localStorage.Servicio){
     
@@ -74,6 +81,7 @@ switch(localStorage.Servicio){
         var hectareas = localStorage.getItem("areaTrabajo");
         $("#preview").html("Tenes" +" " + hectareas +" "+"hectareas" +" "+"para sembrar")
         precioSiembra(localStorage.areaTrabajo, costoSiembra)
+        
         localStorage.clear
         break;
     case "pulverizaciones":
@@ -84,6 +92,14 @@ switch(localStorage.Servicio){
         precioFumigacion(hectareas, costoFumigacion);
         localStorage.clear
         break;
+    case "fertilizaciones":
+        $("#intro").html("Bienvenido" + " " + localStorage.getItem("Nombre"))
+        $("#select").html("Usted Seleccionó"+ " " + seleccion [3])
+        var hectareas = localStorage.getItem("areaTrabajo");
+        $("#preview").html("Tenes" +" " + hectareas +" "+"hectareas" +" "+"para trabajar")
+        precioFumigacion(hectareas, costoFerti);
+        localStorage.clear
+        break;
     case "traslados":
         $("#intro").html("Bienvenido" + " " + localStorage.getItem("Nombre"))
         $("#select").html("Usted Seleccionó"+ " " + seleccion [2]) 
@@ -92,14 +108,48 @@ switch(localStorage.Servicio){
         precioKilometro(kilometros, costoKilometro)   
         localStorage.clear
         break;
+
     default:
         alert("ingrese una respuesta valida")
 }
 
- 
+/*--PROCESO SECUNDARIO--*/
+
+    switch(localStorage.hectareas){
+
+        case (20):
+            
+
+
+
+    }
+
+/*--PARTICLES-BG--*/
+
+
 particlesJS.load('particles-js', '../js/particles.json',
 function(){
     console.log('particles.json loaded...')
+})
+/*--ACTIONS--*/
+$(document).ready(function(){
+    $("#flota").hide();
+});
+$("#submitter").click(function(){
+    $("#info").show();
+    $("#submitter").hide();
+    window.location.reload()
+    
+})
+$("#confirm").click(function(){
+    $("#particles-up").hide();
+    
+});
+$("#close").click(function(){
+    $("#particles-up").show();
+})
+$("#check").click(function(){
+    $("#flota").show()
 })
 
 
