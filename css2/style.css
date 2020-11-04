@@ -1289,15 +1289,16 @@ th {
   background-size: cover;
   background-position: 50% 50%;
   background-repeat: no-repeat;
+  overflow: hidden;
 }
 
-/* line 12, ../Coder/proyectoFinal/scss/_contacto.scss */
+/* line 13, ../Coder/proyectoFinal/scss/_contacto.scss */
 .contact-form {
   border-radius: 10px;
   padding: 72px 55px 90px 55px;
 }
 
-/* line 16, ../Coder/proyectoFinal/scss/_contacto.scss */
+/* line 17, ../Coder/proyectoFinal/scss/_contacto.scss */
 .contact-wrap {
   width: 790px;
   background: #fff;
@@ -1307,7 +1308,7 @@ th {
   z-index: 1;
 }
 
-/* line 24, ../Coder/proyectoFinal/scss/_contacto.scss */
+/* line 25, ../Coder/proyectoFinal/scss/_contacto.scss */
 .bg-contact::before {
   content: "";
   background-color: rgba(0, 0, 0, 0.4);
@@ -1318,7 +1319,7 @@ th {
   height: 100%;
 }
 
-/* line 33, ../Coder/proyectoFinal/scss/_contacto.scss */
+/* line 34, ../Coder/proyectoFinal/scss/_contacto.scss */
 .contact-header {
   font-family: 'Poppins', sans-serif;
   font-weight: bold;
@@ -1538,43 +1539,48 @@ th {
   }
 }
 
-/* line 11, ../Coder/proyectoFinal/scss/style.scss */
+/* line 9, ../Coder/proyectoFinal/scss/style.scss */
+li {
+  text-align: center;
+}
+
+/* line 13, ../Coder/proyectoFinal/scss/style.scss */
 .main-text {
   font-family: 'Poppins', sans-serif;
   font-size: 60px;
   color: #ffffff;
 }
 
-/* line 17, ../Coder/proyectoFinal/scss/style.scss */
+/* line 19, ../Coder/proyectoFinal/scss/style.scss */
 .sub-text {
   font-family: 'Poppins', sans-serif;
   font-size: 32px;
   color: #ffffff;
 }
 
-/* line 24, ../Coder/proyectoFinal/scss/style.scss */
+/* line 26, ../Coder/proyectoFinal/scss/style.scss */
 a {
   text-decoration: none;
 }
 
-/* line 25, ../Coder/proyectoFinal/scss/style.scss */
+/* line 27, ../Coder/proyectoFinal/scss/style.scss */
 a img:hover {
   transform: scale(1.07);
   transition-duration: 1s;
 }
 
-/* line 30, ../Coder/proyectoFinal/scss/style.scss */
+/* line 32, ../Coder/proyectoFinal/scss/style.scss */
 #logo {
   width: 250px;
 }
 
-/* line 33, ../Coder/proyectoFinal/scss/style.scss */
+/* line 35, ../Coder/proyectoFinal/scss/style.scss */
 .fa:hover {
   opacity: 0.7;
   text-decoration: none;
 }
 
-/* line 38, ../Coder/proyectoFinal/scss/style.scss */
+/* line 40, ../Coder/proyectoFinal/scss/style.scss */
 .fa {
   display: flex;
   padding: 20px;
@@ -1585,49 +1591,49 @@ a img:hover {
   transition: .2s ease all;
 }
 
-/* line 49, ../Coder/proyectoFinal/scss/style.scss */
+/* line 51, ../Coder/proyectoFinal/scss/style.scss */
 .fa-facebook {
   background: #f8f9fa;
   color: #3B5998;
 }
 
-/* line 53, ../Coder/proyectoFinal/scss/style.scss */
+/* line 55, ../Coder/proyectoFinal/scss/style.scss */
 .fa-twitter {
   background: #f8f9fa;
   color: #55ACEE;
 }
 
-/* line 57, ../Coder/proyectoFinal/scss/style.scss */
+/* line 59, ../Coder/proyectoFinal/scss/style.scss */
 .fa-linkedin {
   background: #f8f9fa;
   color: #007bb5;
 }
 
-/* line 61, ../Coder/proyectoFinal/scss/style.scss */
+/* line 63, ../Coder/proyectoFinal/scss/style.scss */
 .fa-youtube {
   background: #f8f9fa;
   color: #bb0000;
 }
 
-/* line 65, ../Coder/proyectoFinal/scss/style.scss */
+/* line 67, ../Coder/proyectoFinal/scss/style.scss */
 .fa-instagram {
   background: #f8f9fa;
   color: #E1306C;
 }
 
-/* line 70, ../Coder/proyectoFinal/scss/style.scss */
+/* line 72, ../Coder/proyectoFinal/scss/style.scss */
 #pawneeta {
   background-color: transparent;
   background-image: url(../PNG/PA25.jpg);
 }
 
-/* line 76, ../Coder/proyectoFinal/scss/style.scss */
+/* line 78, ../Coder/proyectoFinal/scss/style.scss */
 #airTractor-2 {
   background-color: transparent;
   background-image: url(../PNG/at2.jpg);
 }
 
-/* line 81, ../Coder/proyectoFinal/scss/style.scss */
+/* line 83, ../Coder/proyectoFinal/scss/style.scss */
 #particles-js {
   background-color: gray;
   background-image: url("");
@@ -1636,7 +1642,7 @@ a img:hover {
   background-position: 50% 50%;
 }
 
-/* line 89, ../Coder/proyectoFinal/scss/style.scss */
+/* line 91, ../Coder/proyectoFinal/scss/style.scss */
 #particles-up {
   position: absolute;
   top: 20%;
@@ -1646,38 +1652,38 @@ a img:hover {
   border-radius: 25px;
 }
 
-/* line 98, ../Coder/proyectoFinal/scss/style.scss */
+/* line 100, ../Coder/proyectoFinal/scss/style.scss */
 .bg-full {
   background-size: cover;
   background-position: 50% 50%;
   position: relative;
 }
 
-/* line 103, ../Coder/proyectoFinal/scss/style.scss */
+/* line 105, ../Coder/proyectoFinal/scss/style.scss */
 .bg-full * {
   z-index: 1;
 }
 
-/* line 106, ../Coder/proyectoFinal/scss/style.scss */
+/* line 108, ../Coder/proyectoFinal/scss/style.scss */
 .grande {
   height: 1000px;
 }
 
-/* line 109, ../Coder/proyectoFinal/scss/style.scss */
+/* line 111, ../Coder/proyectoFinal/scss/style.scss */
 .font {
   font-family: 'Poppins', sans-serif;
   font-size: 15px;
   color: #3a4045;
 }
 
-/* line 113, ../Coder/proyectoFinal/scss/style.scss */
+/* line 115, ../Coder/proyectoFinal/scss/style.scss */
 .fontR {
   font-family: 'Poppins', sans-serif;
   font-size: 1.1vw;
   color: #3a4045;
 }
 
-/* line 117, ../Coder/proyectoFinal/scss/style.scss */
+/* line 119, ../Coder/proyectoFinal/scss/style.scss */
 .bg-full::before {
   content: "";
   background-color: rgba(0, 0, 0, 0.4);
@@ -1688,25 +1694,25 @@ a img:hover {
   height: 100%;
 }
 
-/* line 126, ../Coder/proyectoFinal/scss/style.scss */
+/* line 128, ../Coder/proyectoFinal/scss/style.scss */
 .bg-presupuesto {
   background-image: url(../PNG/dots.jpg);
   background-size: cover;
 }
 
 @media (max-width: 750px) {
-  /* line 130, ../Coder/proyectoFinal/scss/style.scss */
+  /* line 132, ../Coder/proyectoFinal/scss/style.scss */
   .carousel {
     display: none;
   }
 }
 
-/* line 135, ../Coder/proyectoFinal/scss/style.scss */
+/* line 137, ../Coder/proyectoFinal/scss/style.scss */
 .bg-nav {
   background-color: #f8f9fa !important;
 }
 
-/* line 138, ../Coder/proyectoFinal/scss/style.scss */
+/* line 140, ../Coder/proyectoFinal/scss/style.scss */
 .bg-blue {
   background-color: #374089 !important;
 }
