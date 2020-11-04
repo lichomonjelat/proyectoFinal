@@ -24,7 +24,7 @@
 
 </head>
 
-<body>
+<body class="animate__animated animate__fadeIn">
   <div class="fontR">
 
     <nav class="navbar navbar-expand-md navbar-light bg-nav">
@@ -88,99 +88,102 @@
                 <input type="text" id="kilometros" name="kilometros" placeholder="Solamente si selecciona traslados"
                   class="form-control" />
               </div>
-              <button id="submitter" type="button" onclick=" getData()" class="btn btn-primary">Enviar</button>
-              <button id="confirm" type="button" class="btn btn-primary" data-toggle="modal"
-              data-target="#exampleModal">Confirmar</button>
+              <button id="submitter" type="button" onclick=" getData()" class="btn btn-primary" data-toggle="modal"
+                data-target="#exampleModal">Enviar</button>
+
 
             </form>
 
           </div>
-          
 
-         
+
+
         </div>
       </div>
-      <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
-      aria-hidden="true">
-      <div class="modal-dialog">
-        <div class="modal-content">
-          <div class="modal-header">
-            <h5 class="modal-title" id="exampleModalLabel">Su presupuesto</h5>
-            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-              <span aria-hidden="true">&times;</span>
-            </button>
-          </div>
-          <div class="modal-body">
-            <div class="d-flex flex-column align-items-center">
-            <p id="intro">Bienvenido!</p>
-            <p id="select"></p>
-            <p id="preview"></p>
-            <p id="result"></p>
-            <p id="pesos"></p>
+      <div class="modal fade" id="Modal" tabindex="-1" aria-labelledby="ModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="ModalLabel">Su presupuesto</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <div class="d-flex flex-column align-items-center">
+                <p id="intro">Bienvenido!</p>
+                <p id="select"></p>
+                <p id="preview"></p>
+                <p id="result"></p>
+                <p id="pesos"></p>
+              </div>
+            </div>
+            <div class="modal-footer">
+              <button id="close" type="button" class="btn btn-primary" data-dismiss="modal">Cerrar</button>
+              <button id="check" type="button" class="btn btn-success" data-dismiss="modal">Confirmar</button>
             </div>
           </div>
-          <div class="modal-footer">
-            <button id="close" type="button" class="btn btn-primary" data-dismiss="modal">Cerrar</button>
-            <button id="check" type="button" class="btn btn-success" data-dismiss="modal">Confirmar</button>
-          </div>
         </div>
+
+
+
       </div>
-      
-
-
-    </div>
-    <div id="flota" style="position: absolute;">
-      <div class="container">    
-        <div class="row font-nf animate__animated animate__slideInDown" >
-                <div class="col-sm-12 col-md-6">
-                  <div class="container-nf">
-                      <img src="../PNG/pawnee.jpg" alt="" class="rounded-lg image">
-                      <div class="overlay1">
-                        <div class="text">PIPER Pawnee 235</div>
-                      </div>
-                  </div>
-                    <p>El más chico de la flota, con 235 caballos, y una capacidad de 550 litros, ideal para realizar lotes chicos</p>
+      <div id="flota" style="position: absolute;">
+        <div class="container">
+          <div class="row font-nf animate__animated animate__slideInDown">
+            <div class="col-sm-12 col-md-6">
+              <div class="container-nf">
+                <img src="../PNG/pawnee.jpg" alt="" class="rounded-lg image">
+                <div class="overlay1">
+                  <div class="text">PIPER Pawnee 235</div>
                 </div>
-                <div class="col-sm-12 col-md-6">
-                  <div>
-                    <div class="container-nf">
-                      <img src="../PNG/agtruck.jpg" alt="" class="rounded-lg image">
-                      <div class="overlay2">
-                        <div class="text">Cessna 288 AGTRUCK</div>
-                      </div>
-                    </div>
-                    <p>Con 300 caballos, tiene una capacidad de 700 litros, equipado con dispersor para liquidos, y dispersor de solidos</p>
+              </div>
+              <p>El más chico de la flota, con 235 caballos, y una capacidad de 550 litros, ideal para realizar lotes
+                chicos</p>
+            </div>
+            <div class="col-sm-12 col-md-6">
+              <div>
+                <div class="container-nf">
+                  <img src="../PNG/agtruck.jpg" alt="" class="rounded-lg image">
+                  <div class="overlay2">
+                    <div class="text">Cessna 288 AGTRUCK</div>
                   </div>
                 </div>
-                <div class="row font-nf">  
-                <div class="col-sm-12 col-md-6">
-                  <div>
-                    <div class="container-nf">
-                      <img src="../PNG/airtractor2.jpg" alt="" class="rounded-lg image">
-                      <div class="overlay3">
-                        <div class="text">AirTractor AT-402B</div>
-                      </div>
-                    </div>
-                    <p>La adquisision mas reciente de la empresa, con 650SHP y 402 galones de capacidad, ideal para grandes extensiones de campo</p>
-                  </div>
-                </div>
-                <div class="col-sm-12 col-md-6">
+                <p>Con 300 caballos, tiene una capacidad de 700 litros, equipado con dispersor para liquidos, y
+                  dispersor de solidos</p>
+              </div>
+            </div>
+            <div class="row font-nf">
+              <div class="col-sm-12 col-md-6">
                 <div>
-                    <div class="container-nf">
+                  <div class="container-nf">
+                    <img src="../PNG/airtractor2.jpg" alt="" class="rounded-lg image">
+                    <div class="overlay3">
+                      <div class="text">AirTractor AT-402B</div>
+                    </div>
+                  </div>
+                  <p>La adquisision mas reciente de la empresa, con 650SHP y 402 galones de capacidad, ideal para
+                    grandes extensiones de campo</p>
+                </div>
+              </div>
+              <div class="col-sm-12 col-md-6">
+                <div>
+                  <div class="container-nf">
                     <img src="../PNG/centurion.jpg" alt="" class="rounded-lg image">
                     <div class="overlay4">
                       <div class="text">Cessna T210 Turbo Centurion</div>
                     </div>
                   </div>
-                  <p>Con una velocidad crucero de 300km/h, este avion permite estar en cualquier parte del pais en menos de 6 horas</p>
+                  <p>Con una velocidad crucero de 300km/h, este avion permite estar en cualquier parte del pais en menos
+                    de 6 horas</p>
                 </div>
               </div>
             </div>
           </div>
-        </div>   
-     </div>
+        </div>
+      </div>
     </div>
-    
+
     <footer class="page-footer bg-dark">
 
       <div class="bg-blue">
@@ -253,7 +256,7 @@
     <script type="text/javascript"
       src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.0/js/mdb.min.js"></script>
     <!--JAVASCRIPT-->
-    <script src="../js/app.js"></script>
+    <script src="../js/app2.js"></script>
 
 </body>
 

@@ -1,4 +1,5 @@
 @charset "UTF-8";
+/* line 5, ../Coder/proyectoFinal/scss/_variables.scss */
 #pawnee-fondo {
   background-color: transparent;
   background-image: url(../PNG/pawnee.jpg);
@@ -12,6 +13,7 @@
   margin-bottom: 1%;
 }
 
+/* line 5, ../Coder/proyectoFinal/scss/_variables.scss */
 #agtruck-fondo {
   background-color: transparent;
   background-image: url(../PNG/agtruck.jpg);
@@ -25,6 +27,7 @@
   margin-bottom: 1%;
 }
 
+/* line 5, ../Coder/proyectoFinal/scss/_variables.scss */
 #airtractor2-fondo {
   background-color: transparent;
   background-image: url(../PNG/airtractor2.jpg);
@@ -38,6 +41,7 @@
   margin-bottom: 1%;
 }
 
+/* line 5, ../Coder/proyectoFinal/scss/_variables.scss */
 #centurion-fondo {
   background-color: transparent;
   background-image: url(../PNG/centurion.jpg);
@@ -52,141 +56,181 @@
 }
 
 @media (max-width: 650px) {
+  /* line 21, ../Coder/proyectoFinal/scss/_variables.scss */
   .desktop {
     display: none;
   }
+  /* line 24, ../Coder/proyectoFinal/scss/_variables.scss */
   .grande {
     height: 500px !important;
   }
-  .compromiso {
+  /* line 27, ../Coder/proyectoFinal/scss/_variables.scss */
+  .main-text {
     font-size: 25px !important;
   }
-  .compromiso2 {
+  /* line 30, ../Coder/proyectoFinal/scss/_variables.scss */
+  .sub-text {
     font-size: 15px !important;
   }
+  /* line 33, ../Coder/proyectoFinal/scss/_variables.scss */
   .fontR {
     font-size: 12px !important;
   }
+  /* line 36, ../Coder/proyectoFinal/scss/_variables.scss */
   #logo {
     width: 160px !important;
   }
+  /* line 39, ../Coder/proyectoFinal/scss/_variables.scss */
   .font-qs {
     font-size: 20px !important;
   }
+  /* line 42, ../Coder/proyectoFinal/scss/_variables.scss */
   .font-qs2 {
     font-size: 16px !important;
   }
+  /* line 45, ../Coder/proyectoFinal/scss/_variables.scss */
   .font-qs3 {
-    font-size: 10px !important;
+    font-size: 15px !important;
   }
 }
 
 @media (min-width: 651px) {
+  /* line 50, ../Coder/proyectoFinal/scss/_variables.scss */
   .desktop {
     display: none;
   }
+  /* line 53, ../Coder/proyectoFinal/scss/_variables.scss */
   .grande {
     height: 600px !important;
   }
-  .compromiso {
+  /* line 56, ../Coder/proyectoFinal/scss/_variables.scss */
+  .main-text {
     font-size: 30px !important;
   }
-  .compromiso2 {
+  /* line 59, ../Coder/proyectoFinal/scss/_variables.scss */
+  .sub-text {
     font-size: 20px !important;
   }
+  /* line 62, ../Coder/proyectoFinal/scss/_variables.scss */
   .fontR {
     font-size: 20px !important;
   }
+  /* line 65, ../Coder/proyectoFinal/scss/_variables.scss */
   #logo {
     width: 170px !important;
   }
+  /* line 68, ../Coder/proyectoFinal/scss/_variables.scss */
   .font-qs {
     font-size: 30px !important;
   }
+  /* line 71, ../Coder/proyectoFinal/scss/_variables.scss */
   .font-qs2 {
     font-size: 25px !important;
   }
+  /* line 74, ../Coder/proyectoFinal/scss/_variables.scss */
   .font-qs3 {
     font-size: 15px !important;
   }
 }
 
 @media (min-width: 767px) {
+  /* line 79, ../Coder/proyectoFinal/scss/_variables.scss */
   .desktop {
     display: block;
   }
+  /* line 82, ../Coder/proyectoFinal/scss/_variables.scss */
   .grande {
     height: 750px !important;
   }
-  .compromiso {
+  /* line 85, ../Coder/proyectoFinal/scss/_variables.scss */
+  .main-text {
     font-size: 35px !important;
   }
-  .compromiso2 {
+  /* line 88, ../Coder/proyectoFinal/scss/_variables.scss */
+  .sub-text {
     font-size: 25px !important;
   }
+  /* line 91, ../Coder/proyectoFinal/scss/_variables.scss */
   .fontR {
     font-size: 1.1vw !important;
   }
+  /* line 94, ../Coder/proyectoFinal/scss/_variables.scss */
   #logo {
     width: 200px !important;
   }
+  /* line 97, ../Coder/proyectoFinal/scss/_variables.scss */
   .font-qs {
-    font-size: 40px;
+    font-size: 40px !important;
   }
+  /* line 100, ../Coder/proyectoFinal/scss/_variables.scss */
   .font-qs2 {
-    font-size: 32px;
+    font-size: 32px !important;
   }
+  /* line 103, ../Coder/proyectoFinal/scss/_variables.scss */
   .font-qs3 {
-    font-size: 17px;
+    font-size: 17px !important;
   }
 }
 
-@media (min-width: 1360px) {
+@media (min-width: 1920px) {
+  /* line 109, ../Coder/proyectoFinal/scss/_variables.scss */
   .desktop {
     display: block;
   }
+  /* line 112, ../Coder/proyectoFinal/scss/_variables.scss */
   .grande {
     height: 1000px !important;
   }
-  .compromiso {
+  /* line 115, ../Coder/proyectoFinal/scss/_variables.scss */
+  .main-text {
     font-size: 60px !important;
   }
-  .compromiso2 {
+  /* line 118, ../Coder/proyectoFinal/scss/_variables.scss */
+  .sub-text {
     font-size: 35px !important;
   }
+  /* line 121, ../Coder/proyectoFinal/scss/_variables.scss */
   .fontR {
     font-size: 1.05vw !important;
   }
+  /* line 124, ../Coder/proyectoFinal/scss/_variables.scss */
   #logo {
     width: 230px !important;
   }
+  /* line 127, ../Coder/proyectoFinal/scss/_variables.scss */
   .font-qs {
-    font-size: 40px;
+    font-size: 40px !important;
   }
+  /* line 130, ../Coder/proyectoFinal/scss/_variables.scss */
   .font-qs2 {
-    font-size: 32px;
+    font-size: 32px !important;
   }
+  /* line 133, ../Coder/proyectoFinal/scss/_variables.scss */
   .font-qs3 {
-    font-size: 17px;
+    font-size: 17px !important;
   }
 }
 
+/* line 3, ../Coder/proyectoFinal/scss/_servicios-ofrecidos.scss */
 table {
   border-collapse: collapse;
   width: 100%;
 }
 
+/* line 7, ../Coder/proyectoFinal/scss/_servicios-ofrecidos.scss */
 th, td {
   background-color: #e6f1fa;
   text-align: left;
   padding: 20px;
 }
 
+/* line 12, ../Coder/proyectoFinal/scss/_servicios-ofrecidos.scss */
 th {
   background-color: #6c97b8;
   color: white;
 }
 
+/* line 17, ../Coder/proyectoFinal/scss/_servicios-ofrecidos.scss */
 #siembra {
   background-color: transparent;
   background-image: url(../PNG/siembra-aérea.jpg);
@@ -196,6 +240,7 @@ th {
   margin-bottom: 1%;
 }
 
+/* line 26, ../Coder/proyectoFinal/scss/_servicios-ofrecidos.scss */
 #fertilizaciones {
   background-color: transparent;
   background-image: url(../PNG/fertilizacion.jpg);
@@ -205,6 +250,7 @@ th {
   color: white;
 }
 
+/* line 35, ../Coder/proyectoFinal/scss/_servicios-ofrecidos.scss */
 #traslados {
   background-color: transparent;
   background-image: url(../PNG/wingview.png);
@@ -214,6 +260,7 @@ th {
   color: white;
 }
 
+/* line 44, ../Coder/proyectoFinal/scss/_servicios-ofrecidos.scss */
 #pulverizaciones {
   background-color: transparent;
   background-image: url(../PNG/pulverizaciones.jpg);
@@ -224,16 +271,7 @@ th {
   margin-bottom: 1%;
 }
 
-.font-section {
-  font-family: 'Poppins', sans-serif;
-  font-size: 60px;
-}
-
-.font-section2 {
-  font-family: 'Poppins', sans-serif;
-  font-size: 25px;
-}
-
+/* line 5, ../Coder/proyectoFinal/scss/_variables.scss */
 #pawnee-fondo {
   background-color: transparent;
   background-image: url(../PNG/pawnee.jpg);
@@ -247,6 +285,7 @@ th {
   margin-bottom: 1%;
 }
 
+/* line 5, ../Coder/proyectoFinal/scss/_variables.scss */
 #agtruck-fondo {
   background-color: transparent;
   background-image: url(../PNG/agtruck.jpg);
@@ -260,6 +299,7 @@ th {
   margin-bottom: 1%;
 }
 
+/* line 5, ../Coder/proyectoFinal/scss/_variables.scss */
 #airtractor2-fondo {
   background-color: transparent;
   background-image: url(../PNG/airtractor2.jpg);
@@ -273,6 +313,7 @@ th {
   margin-bottom: 1%;
 }
 
+/* line 5, ../Coder/proyectoFinal/scss/_variables.scss */
 #centurion-fondo {
   background-color: transparent;
   background-image: url(../PNG/centurion.jpg);
@@ -287,150 +328,192 @@ th {
 }
 
 @media (max-width: 650px) {
+  /* line 21, ../Coder/proyectoFinal/scss/_variables.scss */
   .desktop {
     display: none;
   }
+  /* line 24, ../Coder/proyectoFinal/scss/_variables.scss */
   .grande {
     height: 500px !important;
   }
-  .compromiso {
+  /* line 27, ../Coder/proyectoFinal/scss/_variables.scss */
+  .main-text {
     font-size: 25px !important;
   }
-  .compromiso2 {
+  /* line 30, ../Coder/proyectoFinal/scss/_variables.scss */
+  .sub-text {
     font-size: 15px !important;
   }
+  /* line 33, ../Coder/proyectoFinal/scss/_variables.scss */
   .fontR {
     font-size: 12px !important;
   }
+  /* line 36, ../Coder/proyectoFinal/scss/_variables.scss */
   #logo {
     width: 160px !important;
   }
+  /* line 39, ../Coder/proyectoFinal/scss/_variables.scss */
   .font-qs {
     font-size: 20px !important;
   }
+  /* line 42, ../Coder/proyectoFinal/scss/_variables.scss */
   .font-qs2 {
     font-size: 16px !important;
   }
+  /* line 45, ../Coder/proyectoFinal/scss/_variables.scss */
   .font-qs3 {
-    font-size: 10px !important;
+    font-size: 15px !important;
   }
 }
 
 @media (min-width: 651px) {
+  /* line 50, ../Coder/proyectoFinal/scss/_variables.scss */
   .desktop {
     display: none;
   }
+  /* line 53, ../Coder/proyectoFinal/scss/_variables.scss */
   .grande {
     height: 600px !important;
   }
-  .compromiso {
+  /* line 56, ../Coder/proyectoFinal/scss/_variables.scss */
+  .main-text {
     font-size: 30px !important;
   }
-  .compromiso2 {
+  /* line 59, ../Coder/proyectoFinal/scss/_variables.scss */
+  .sub-text {
     font-size: 20px !important;
   }
+  /* line 62, ../Coder/proyectoFinal/scss/_variables.scss */
   .fontR {
     font-size: 20px !important;
   }
+  /* line 65, ../Coder/proyectoFinal/scss/_variables.scss */
   #logo {
     width: 170px !important;
   }
+  /* line 68, ../Coder/proyectoFinal/scss/_variables.scss */
   .font-qs {
     font-size: 30px !important;
   }
+  /* line 71, ../Coder/proyectoFinal/scss/_variables.scss */
   .font-qs2 {
     font-size: 25px !important;
   }
+  /* line 74, ../Coder/proyectoFinal/scss/_variables.scss */
   .font-qs3 {
     font-size: 15px !important;
   }
 }
 
 @media (min-width: 767px) {
+  /* line 79, ../Coder/proyectoFinal/scss/_variables.scss */
   .desktop {
     display: block;
   }
+  /* line 82, ../Coder/proyectoFinal/scss/_variables.scss */
   .grande {
     height: 750px !important;
   }
-  .compromiso {
+  /* line 85, ../Coder/proyectoFinal/scss/_variables.scss */
+  .main-text {
     font-size: 35px !important;
   }
-  .compromiso2 {
+  /* line 88, ../Coder/proyectoFinal/scss/_variables.scss */
+  .sub-text {
     font-size: 25px !important;
   }
+  /* line 91, ../Coder/proyectoFinal/scss/_variables.scss */
   .fontR {
     font-size: 1.1vw !important;
   }
+  /* line 94, ../Coder/proyectoFinal/scss/_variables.scss */
   #logo {
     width: 200px !important;
   }
+  /* line 97, ../Coder/proyectoFinal/scss/_variables.scss */
   .font-qs {
-    font-size: 40px;
+    font-size: 40px !important;
   }
+  /* line 100, ../Coder/proyectoFinal/scss/_variables.scss */
   .font-qs2 {
-    font-size: 32px;
+    font-size: 32px !important;
   }
+  /* line 103, ../Coder/proyectoFinal/scss/_variables.scss */
   .font-qs3 {
-    font-size: 17px;
+    font-size: 17px !important;
   }
 }
 
-@media (min-width: 1360px) {
+@media (min-width: 1920px) {
+  /* line 109, ../Coder/proyectoFinal/scss/_variables.scss */
   .desktop {
     display: block;
   }
+  /* line 112, ../Coder/proyectoFinal/scss/_variables.scss */
   .grande {
     height: 1000px !important;
   }
-  .compromiso {
+  /* line 115, ../Coder/proyectoFinal/scss/_variables.scss */
+  .main-text {
     font-size: 60px !important;
   }
-  .compromiso2 {
+  /* line 118, ../Coder/proyectoFinal/scss/_variables.scss */
+  .sub-text {
     font-size: 35px !important;
   }
+  /* line 121, ../Coder/proyectoFinal/scss/_variables.scss */
   .fontR {
     font-size: 1.05vw !important;
   }
+  /* line 124, ../Coder/proyectoFinal/scss/_variables.scss */
   #logo {
     width: 230px !important;
   }
+  /* line 127, ../Coder/proyectoFinal/scss/_variables.scss */
   .font-qs {
-    font-size: 40px;
+    font-size: 40px !important;
   }
+  /* line 130, ../Coder/proyectoFinal/scss/_variables.scss */
   .font-qs2 {
-    font-size: 32px;
+    font-size: 32px !important;
   }
+  /* line 133, ../Coder/proyectoFinal/scss/_variables.scss */
   .font-qs3 {
-    font-size: 17px;
+    font-size: 17px !important;
   }
 }
 
+/* line 2, ../Coder/proyectoFinal/scss/_quienes-somos.scss */
 .flex {
   display: flex;
   flex-direction: column;
 }
 
+/* line 7, ../Coder/proyectoFinal/scss/_quienes-somos.scss */
 .font-qs {
   font-family: 'Poppins', sans-serif;
   font-size: 40px;
   color: white;
 }
 
+/* line 12, ../Coder/proyectoFinal/scss/_quienes-somos.scss */
 .font-qs2 {
   font-size: 32px;
   color: white;
 }
 
+/* line 16, ../Coder/proyectoFinal/scss/_quienes-somos.scss */
 .font-qs3 {
   font-size: 17px;
   color: white;
 }
 
+/* line 20, ../Coder/proyectoFinal/scss/_quienes-somos.scss */
 #bg-qs {
   background-image: url(../PNG/fat_lines_light-2.jpg);
 }
 
+/* line 5, ../Coder/proyectoFinal/scss/_variables.scss */
 #pawnee-fondo {
   background-color: transparent;
   background-image: url(../PNG/pawnee.jpg);
@@ -444,6 +527,7 @@ th {
   margin-bottom: 1%;
 }
 
+/* line 5, ../Coder/proyectoFinal/scss/_variables.scss */
 #agtruck-fondo {
   background-color: transparent;
   background-image: url(../PNG/agtruck.jpg);
@@ -457,6 +541,7 @@ th {
   margin-bottom: 1%;
 }
 
+/* line 5, ../Coder/proyectoFinal/scss/_variables.scss */
 #airtractor2-fondo {
   background-color: transparent;
   background-image: url(../PNG/airtractor2.jpg);
@@ -470,6 +555,7 @@ th {
   margin-bottom: 1%;
 }
 
+/* line 5, ../Coder/proyectoFinal/scss/_variables.scss */
 #centurion-fondo {
   background-color: transparent;
   background-image: url(../PNG/centurion.jpg);
@@ -484,132 +570,162 @@ th {
 }
 
 @media (max-width: 650px) {
+  /* line 21, ../Coder/proyectoFinal/scss/_variables.scss */
   .desktop {
     display: none;
   }
+  /* line 24, ../Coder/proyectoFinal/scss/_variables.scss */
   .grande {
     height: 500px !important;
   }
-  .compromiso {
+  /* line 27, ../Coder/proyectoFinal/scss/_variables.scss */
+  .main-text {
     font-size: 25px !important;
   }
-  .compromiso2 {
+  /* line 30, ../Coder/proyectoFinal/scss/_variables.scss */
+  .sub-text {
     font-size: 15px !important;
   }
+  /* line 33, ../Coder/proyectoFinal/scss/_variables.scss */
   .fontR {
     font-size: 12px !important;
   }
+  /* line 36, ../Coder/proyectoFinal/scss/_variables.scss */
   #logo {
     width: 160px !important;
   }
+  /* line 39, ../Coder/proyectoFinal/scss/_variables.scss */
   .font-qs {
     font-size: 20px !important;
   }
+  /* line 42, ../Coder/proyectoFinal/scss/_variables.scss */
   .font-qs2 {
     font-size: 16px !important;
   }
+  /* line 45, ../Coder/proyectoFinal/scss/_variables.scss */
   .font-qs3 {
-    font-size: 10px !important;
+    font-size: 15px !important;
   }
 }
 
 @media (min-width: 651px) {
+  /* line 50, ../Coder/proyectoFinal/scss/_variables.scss */
   .desktop {
     display: none;
   }
+  /* line 53, ../Coder/proyectoFinal/scss/_variables.scss */
   .grande {
     height: 600px !important;
   }
-  .compromiso {
+  /* line 56, ../Coder/proyectoFinal/scss/_variables.scss */
+  .main-text {
     font-size: 30px !important;
   }
-  .compromiso2 {
+  /* line 59, ../Coder/proyectoFinal/scss/_variables.scss */
+  .sub-text {
     font-size: 20px !important;
   }
+  /* line 62, ../Coder/proyectoFinal/scss/_variables.scss */
   .fontR {
     font-size: 20px !important;
   }
+  /* line 65, ../Coder/proyectoFinal/scss/_variables.scss */
   #logo {
     width: 170px !important;
   }
+  /* line 68, ../Coder/proyectoFinal/scss/_variables.scss */
   .font-qs {
     font-size: 30px !important;
   }
+  /* line 71, ../Coder/proyectoFinal/scss/_variables.scss */
   .font-qs2 {
     font-size: 25px !important;
   }
+  /* line 74, ../Coder/proyectoFinal/scss/_variables.scss */
   .font-qs3 {
     font-size: 15px !important;
   }
 }
 
 @media (min-width: 767px) {
+  /* line 79, ../Coder/proyectoFinal/scss/_variables.scss */
   .desktop {
     display: block;
   }
+  /* line 82, ../Coder/proyectoFinal/scss/_variables.scss */
   .grande {
     height: 750px !important;
   }
-  .compromiso {
+  /* line 85, ../Coder/proyectoFinal/scss/_variables.scss */
+  .main-text {
     font-size: 35px !important;
   }
-  .compromiso2 {
+  /* line 88, ../Coder/proyectoFinal/scss/_variables.scss */
+  .sub-text {
     font-size: 25px !important;
   }
+  /* line 91, ../Coder/proyectoFinal/scss/_variables.scss */
   .fontR {
     font-size: 1.1vw !important;
   }
+  /* line 94, ../Coder/proyectoFinal/scss/_variables.scss */
   #logo {
     width: 200px !important;
   }
+  /* line 97, ../Coder/proyectoFinal/scss/_variables.scss */
   .font-qs {
-    font-size: 40px;
+    font-size: 40px !important;
   }
+  /* line 100, ../Coder/proyectoFinal/scss/_variables.scss */
   .font-qs2 {
-    font-size: 32px;
+    font-size: 32px !important;
   }
+  /* line 103, ../Coder/proyectoFinal/scss/_variables.scss */
   .font-qs3 {
-    font-size: 17px;
+    font-size: 17px !important;
   }
 }
 
-@media (min-width: 1360px) {
+@media (min-width: 1920px) {
+  /* line 109, ../Coder/proyectoFinal/scss/_variables.scss */
   .desktop {
     display: block;
   }
+  /* line 112, ../Coder/proyectoFinal/scss/_variables.scss */
   .grande {
     height: 1000px !important;
   }
-  .compromiso {
+  /* line 115, ../Coder/proyectoFinal/scss/_variables.scss */
+  .main-text {
     font-size: 60px !important;
   }
-  .compromiso2 {
+  /* line 118, ../Coder/proyectoFinal/scss/_variables.scss */
+  .sub-text {
     font-size: 35px !important;
   }
+  /* line 121, ../Coder/proyectoFinal/scss/_variables.scss */
   .fontR {
     font-size: 1.05vw !important;
   }
+  /* line 124, ../Coder/proyectoFinal/scss/_variables.scss */
   #logo {
     width: 230px !important;
   }
+  /* line 127, ../Coder/proyectoFinal/scss/_variables.scss */
   .font-qs {
-    font-size: 40px;
+    font-size: 40px !important;
   }
+  /* line 130, ../Coder/proyectoFinal/scss/_variables.scss */
   .font-qs2 {
-    font-size: 32px;
+    font-size: 32px !important;
   }
+  /* line 133, ../Coder/proyectoFinal/scss/_variables.scss */
   .font-qs3 {
-    font-size: 17px;
+    font-size: 17px !important;
   }
 }
 
-.gridBP {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: 200px 1000px 400px;
-  grid-template-areas: "BuenasPracticas BuenasPracticas" "Foto Foto" "queSon QuienesIntegramos";
-}
-
+/* line 4, ../Coder/proyectoFinal/scss/_buenas-practicas.scss */
 .buenasPracticas {
   background-color: transparent;
   background-image: url(../PNG/buenas-practicas.jpg);
@@ -617,23 +733,12 @@ th {
   background-position: 50% 50%;
 }
 
-#encabezado {
-  grid-area: BuenasPracticas;
-  padding: 8px;
+/* line 10, ../Coder/proyectoFinal/scss/_buenas-practicas.scss */
+.bpa {
+  border-radius: 100%;
 }
 
-#foto1 {
-  grid-area: Foto;
-}
-
-#BP {
-  grid-area: queSon;
-}
-
-#Quienesintegramos {
-  grid-area: QuienesIntegramos;
-}
-
+/* line 5, ../Coder/proyectoFinal/scss/_variables.scss */
 #pawnee-fondo {
   background-color: transparent;
   background-image: url(../PNG/pawnee.jpg);
@@ -647,6 +752,7 @@ th {
   margin-bottom: 1%;
 }
 
+/* line 5, ../Coder/proyectoFinal/scss/_variables.scss */
 #agtruck-fondo {
   background-color: transparent;
   background-image: url(../PNG/agtruck.jpg);
@@ -660,6 +766,7 @@ th {
   margin-bottom: 1%;
 }
 
+/* line 5, ../Coder/proyectoFinal/scss/_variables.scss */
 #airtractor2-fondo {
   background-color: transparent;
   background-image: url(../PNG/airtractor2.jpg);
@@ -673,6 +780,7 @@ th {
   margin-bottom: 1%;
 }
 
+/* line 5, ../Coder/proyectoFinal/scss/_variables.scss */
 #centurion-fondo {
   background-color: transparent;
   background-image: url(../PNG/centurion.jpg);
@@ -687,144 +795,185 @@ th {
 }
 
 @media (max-width: 650px) {
+  /* line 21, ../Coder/proyectoFinal/scss/_variables.scss */
   .desktop {
     display: none;
   }
+  /* line 24, ../Coder/proyectoFinal/scss/_variables.scss */
   .grande {
     height: 500px !important;
   }
-  .compromiso {
+  /* line 27, ../Coder/proyectoFinal/scss/_variables.scss */
+  .main-text {
     font-size: 25px !important;
   }
-  .compromiso2 {
+  /* line 30, ../Coder/proyectoFinal/scss/_variables.scss */
+  .sub-text {
     font-size: 15px !important;
   }
+  /* line 33, ../Coder/proyectoFinal/scss/_variables.scss */
   .fontR {
     font-size: 12px !important;
   }
+  /* line 36, ../Coder/proyectoFinal/scss/_variables.scss */
   #logo {
     width: 160px !important;
   }
+  /* line 39, ../Coder/proyectoFinal/scss/_variables.scss */
   .font-qs {
     font-size: 20px !important;
   }
+  /* line 42, ../Coder/proyectoFinal/scss/_variables.scss */
   .font-qs2 {
     font-size: 16px !important;
   }
+  /* line 45, ../Coder/proyectoFinal/scss/_variables.scss */
   .font-qs3 {
-    font-size: 10px !important;
+    font-size: 15px !important;
   }
 }
 
 @media (min-width: 651px) {
+  /* line 50, ../Coder/proyectoFinal/scss/_variables.scss */
   .desktop {
     display: none;
   }
+  /* line 53, ../Coder/proyectoFinal/scss/_variables.scss */
   .grande {
     height: 600px !important;
   }
-  .compromiso {
+  /* line 56, ../Coder/proyectoFinal/scss/_variables.scss */
+  .main-text {
     font-size: 30px !important;
   }
-  .compromiso2 {
+  /* line 59, ../Coder/proyectoFinal/scss/_variables.scss */
+  .sub-text {
     font-size: 20px !important;
   }
+  /* line 62, ../Coder/proyectoFinal/scss/_variables.scss */
   .fontR {
     font-size: 20px !important;
   }
+  /* line 65, ../Coder/proyectoFinal/scss/_variables.scss */
   #logo {
     width: 170px !important;
   }
+  /* line 68, ../Coder/proyectoFinal/scss/_variables.scss */
   .font-qs {
     font-size: 30px !important;
   }
+  /* line 71, ../Coder/proyectoFinal/scss/_variables.scss */
   .font-qs2 {
     font-size: 25px !important;
   }
+  /* line 74, ../Coder/proyectoFinal/scss/_variables.scss */
   .font-qs3 {
     font-size: 15px !important;
   }
 }
 
 @media (min-width: 767px) {
+  /* line 79, ../Coder/proyectoFinal/scss/_variables.scss */
   .desktop {
     display: block;
   }
+  /* line 82, ../Coder/proyectoFinal/scss/_variables.scss */
   .grande {
     height: 750px !important;
   }
-  .compromiso {
+  /* line 85, ../Coder/proyectoFinal/scss/_variables.scss */
+  .main-text {
     font-size: 35px !important;
   }
-  .compromiso2 {
+  /* line 88, ../Coder/proyectoFinal/scss/_variables.scss */
+  .sub-text {
     font-size: 25px !important;
   }
+  /* line 91, ../Coder/proyectoFinal/scss/_variables.scss */
   .fontR {
     font-size: 1.1vw !important;
   }
+  /* line 94, ../Coder/proyectoFinal/scss/_variables.scss */
   #logo {
     width: 200px !important;
   }
+  /* line 97, ../Coder/proyectoFinal/scss/_variables.scss */
   .font-qs {
-    font-size: 40px;
+    font-size: 40px !important;
   }
+  /* line 100, ../Coder/proyectoFinal/scss/_variables.scss */
   .font-qs2 {
-    font-size: 32px;
+    font-size: 32px !important;
   }
+  /* line 103, ../Coder/proyectoFinal/scss/_variables.scss */
   .font-qs3 {
-    font-size: 17px;
+    font-size: 17px !important;
   }
 }
 
-@media (min-width: 1360px) {
+@media (min-width: 1920px) {
+  /* line 109, ../Coder/proyectoFinal/scss/_variables.scss */
   .desktop {
     display: block;
   }
+  /* line 112, ../Coder/proyectoFinal/scss/_variables.scss */
   .grande {
     height: 1000px !important;
   }
-  .compromiso {
+  /* line 115, ../Coder/proyectoFinal/scss/_variables.scss */
+  .main-text {
     font-size: 60px !important;
   }
-  .compromiso2 {
+  /* line 118, ../Coder/proyectoFinal/scss/_variables.scss */
+  .sub-text {
     font-size: 35px !important;
   }
+  /* line 121, ../Coder/proyectoFinal/scss/_variables.scss */
   .fontR {
     font-size: 1.05vw !important;
   }
+  /* line 124, ../Coder/proyectoFinal/scss/_variables.scss */
   #logo {
     width: 230px !important;
   }
+  /* line 127, ../Coder/proyectoFinal/scss/_variables.scss */
   .font-qs {
-    font-size: 40px;
+    font-size: 40px !important;
   }
+  /* line 130, ../Coder/proyectoFinal/scss/_variables.scss */
   .font-qs2 {
-    font-size: 32px;
+    font-size: 32px !important;
   }
+  /* line 133, ../Coder/proyectoFinal/scss/_variables.scss */
   .font-qs3 {
-    font-size: 17px;
+    font-size: 17px !important;
   }
 }
 
+/* line 3, ../Coder/proyectoFinal/scss/_nuestra-flota.scss */
 .body-bg {
   background-color: rgba(0, 0, 0, 0.1);
 }
 
+/* line 6, ../Coder/proyectoFinal/scss/_nuestra-flota.scss */
 .container-nf {
   position: relative;
   width: 100%;
 }
 
+/* line 10, ../Coder/proyectoFinal/scss/_nuestra-flota.scss */
 .image {
   display: block;
   width: 100%;
   height: auto;
 }
 
+/* line 15, ../Coder/proyectoFinal/scss/_nuestra-flota.scss */
 #nf-bg {
   background-image: url(../PNG/fat_lines.gif);
 }
 
+/* line 19, ../Coder/proyectoFinal/scss/_nuestra-flota.scss */
 .overlay1 {
   position: absolute;
   top: 0;
@@ -838,6 +987,7 @@ th {
   background-color: rgba(0, 0, 0, 0.4);
 }
 
+/* line 31, ../Coder/proyectoFinal/scss/_nuestra-flota.scss */
 .overlay2 {
   position: absolute;
   top: 0;
@@ -851,6 +1001,7 @@ th {
   background-color: #e53d3c7d;
 }
 
+/* line 43, ../Coder/proyectoFinal/scss/_nuestra-flota.scss */
 .overlay3 {
   position: absolute;
   top: 0;
@@ -864,6 +1015,7 @@ th {
   background-color: #4b89c68c;
 }
 
+/* line 55, ../Coder/proyectoFinal/scss/_nuestra-flota.scss */
 .overlay4 {
   position: absolute;
   top: 0;
@@ -877,22 +1029,27 @@ th {
   background-color: #100b0d7d;
 }
 
+/* line 67, ../Coder/proyectoFinal/scss/_nuestra-flota.scss */
 .container-nf:hover .overlay1 {
   opacity: 1;
 }
 
+/* line 70, ../Coder/proyectoFinal/scss/_nuestra-flota.scss */
 .container-nf:hover .overlay2 {
   opacity: 1;
 }
 
+/* line 73, ../Coder/proyectoFinal/scss/_nuestra-flota.scss */
 .container-nf:hover .overlay3 {
   opacity: 1;
 }
 
+/* line 76, ../Coder/proyectoFinal/scss/_nuestra-flota.scss */
 .container-nf:hover .overlay4 {
   opacity: 1;
 }
 
+/* line 79, ../Coder/proyectoFinal/scss/_nuestra-flota.scss */
 .text {
   color: white;
   font-size: 20px;
@@ -905,10 +1062,12 @@ th {
   text-align: center;
 }
 
+/* line 90, ../Coder/proyectoFinal/scss/_nuestra-flota.scss */
 .font-nf {
   font-size: 20px;
 }
 
+/* line 5, ../Coder/proyectoFinal/scss/_variables.scss */
 #pawnee-fondo {
   background-color: transparent;
   background-image: url(../PNG/pawnee.jpg);
@@ -922,6 +1081,7 @@ th {
   margin-bottom: 1%;
 }
 
+/* line 5, ../Coder/proyectoFinal/scss/_variables.scss */
 #agtruck-fondo {
   background-color: transparent;
   background-image: url(../PNG/agtruck.jpg);
@@ -935,6 +1095,7 @@ th {
   margin-bottom: 1%;
 }
 
+/* line 5, ../Coder/proyectoFinal/scss/_variables.scss */
 #airtractor2-fondo {
   background-color: transparent;
   background-image: url(../PNG/airtractor2.jpg);
@@ -948,6 +1109,7 @@ th {
   margin-bottom: 1%;
 }
 
+/* line 5, ../Coder/proyectoFinal/scss/_variables.scss */
 #centurion-fondo {
   background-color: transparent;
   background-image: url(../PNG/centurion.jpg);
@@ -962,125 +1124,162 @@ th {
 }
 
 @media (max-width: 650px) {
+  /* line 21, ../Coder/proyectoFinal/scss/_variables.scss */
   .desktop {
     display: none;
   }
+  /* line 24, ../Coder/proyectoFinal/scss/_variables.scss */
   .grande {
     height: 500px !important;
   }
-  .compromiso {
+  /* line 27, ../Coder/proyectoFinal/scss/_variables.scss */
+  .main-text {
     font-size: 25px !important;
   }
-  .compromiso2 {
+  /* line 30, ../Coder/proyectoFinal/scss/_variables.scss */
+  .sub-text {
     font-size: 15px !important;
   }
+  /* line 33, ../Coder/proyectoFinal/scss/_variables.scss */
   .fontR {
     font-size: 12px !important;
   }
+  /* line 36, ../Coder/proyectoFinal/scss/_variables.scss */
   #logo {
     width: 160px !important;
   }
+  /* line 39, ../Coder/proyectoFinal/scss/_variables.scss */
   .font-qs {
     font-size: 20px !important;
   }
+  /* line 42, ../Coder/proyectoFinal/scss/_variables.scss */
   .font-qs2 {
     font-size: 16px !important;
   }
+  /* line 45, ../Coder/proyectoFinal/scss/_variables.scss */
   .font-qs3 {
-    font-size: 10px !important;
+    font-size: 15px !important;
   }
 }
 
 @media (min-width: 651px) {
+  /* line 50, ../Coder/proyectoFinal/scss/_variables.scss */
   .desktop {
     display: none;
   }
+  /* line 53, ../Coder/proyectoFinal/scss/_variables.scss */
   .grande {
     height: 600px !important;
   }
-  .compromiso {
+  /* line 56, ../Coder/proyectoFinal/scss/_variables.scss */
+  .main-text {
     font-size: 30px !important;
   }
-  .compromiso2 {
+  /* line 59, ../Coder/proyectoFinal/scss/_variables.scss */
+  .sub-text {
     font-size: 20px !important;
   }
+  /* line 62, ../Coder/proyectoFinal/scss/_variables.scss */
   .fontR {
     font-size: 20px !important;
   }
+  /* line 65, ../Coder/proyectoFinal/scss/_variables.scss */
   #logo {
     width: 170px !important;
   }
+  /* line 68, ../Coder/proyectoFinal/scss/_variables.scss */
   .font-qs {
     font-size: 30px !important;
   }
+  /* line 71, ../Coder/proyectoFinal/scss/_variables.scss */
   .font-qs2 {
     font-size: 25px !important;
   }
+  /* line 74, ../Coder/proyectoFinal/scss/_variables.scss */
   .font-qs3 {
     font-size: 15px !important;
   }
 }
 
 @media (min-width: 767px) {
+  /* line 79, ../Coder/proyectoFinal/scss/_variables.scss */
   .desktop {
     display: block;
   }
+  /* line 82, ../Coder/proyectoFinal/scss/_variables.scss */
   .grande {
     height: 750px !important;
   }
-  .compromiso {
+  /* line 85, ../Coder/proyectoFinal/scss/_variables.scss */
+  .main-text {
     font-size: 35px !important;
   }
-  .compromiso2 {
+  /* line 88, ../Coder/proyectoFinal/scss/_variables.scss */
+  .sub-text {
     font-size: 25px !important;
   }
+  /* line 91, ../Coder/proyectoFinal/scss/_variables.scss */
   .fontR {
     font-size: 1.1vw !important;
   }
+  /* line 94, ../Coder/proyectoFinal/scss/_variables.scss */
   #logo {
     width: 200px !important;
   }
+  /* line 97, ../Coder/proyectoFinal/scss/_variables.scss */
   .font-qs {
-    font-size: 40px;
+    font-size: 40px !important;
   }
+  /* line 100, ../Coder/proyectoFinal/scss/_variables.scss */
   .font-qs2 {
-    font-size: 32px;
+    font-size: 32px !important;
   }
+  /* line 103, ../Coder/proyectoFinal/scss/_variables.scss */
   .font-qs3 {
-    font-size: 17px;
+    font-size: 17px !important;
   }
 }
 
-@media (min-width: 1360px) {
+@media (min-width: 1920px) {
+  /* line 109, ../Coder/proyectoFinal/scss/_variables.scss */
   .desktop {
     display: block;
   }
+  /* line 112, ../Coder/proyectoFinal/scss/_variables.scss */
   .grande {
     height: 1000px !important;
   }
-  .compromiso {
+  /* line 115, ../Coder/proyectoFinal/scss/_variables.scss */
+  .main-text {
     font-size: 60px !important;
   }
-  .compromiso2 {
+  /* line 118, ../Coder/proyectoFinal/scss/_variables.scss */
+  .sub-text {
     font-size: 35px !important;
   }
+  /* line 121, ../Coder/proyectoFinal/scss/_variables.scss */
   .fontR {
     font-size: 1.05vw !important;
   }
+  /* line 124, ../Coder/proyectoFinal/scss/_variables.scss */
   #logo {
     width: 230px !important;
   }
+  /* line 127, ../Coder/proyectoFinal/scss/_variables.scss */
   .font-qs {
-    font-size: 40px;
+    font-size: 40px !important;
   }
+  /* line 130, ../Coder/proyectoFinal/scss/_variables.scss */
   .font-qs2 {
-    font-size: 32px;
+    font-size: 32px !important;
   }
+  /* line 133, ../Coder/proyectoFinal/scss/_variables.scss */
   .font-qs3 {
-    font-size: 17px;
+    font-size: 17px !important;
   }
 }
 
+/* line 2, ../Coder/proyectoFinal/scss/_contacto.scss */
 .bg-contact {
   margin: 0%;
   position: relative;
@@ -1092,11 +1291,13 @@ th {
   background-repeat: no-repeat;
 }
 
+/* line 12, ../Coder/proyectoFinal/scss/_contacto.scss */
 .contact-form {
   border-radius: 10px;
   padding: 72px 55px 90px 55px;
 }
 
+/* line 16, ../Coder/proyectoFinal/scss/_contacto.scss */
 .contact-wrap {
   width: 790px;
   background: #fff;
@@ -1106,6 +1307,7 @@ th {
   z-index: 1;
 }
 
+/* line 24, ../Coder/proyectoFinal/scss/_contacto.scss */
 .bg-contact::before {
   content: "";
   background-color: rgba(0, 0, 0, 0.4);
@@ -1116,6 +1318,7 @@ th {
   height: 100%;
 }
 
+/* line 33, ../Coder/proyectoFinal/scss/_contacto.scss */
 .contact-header {
   font-family: 'Poppins', sans-serif;
   font-weight: bold;
@@ -1123,6 +1326,7 @@ th {
   color: black;
 }
 
+/* line 5, ../Coder/proyectoFinal/scss/_variables.scss */
 #pawnee-fondo {
   background-color: transparent;
   background-image: url(../PNG/pawnee.jpg);
@@ -1136,6 +1340,7 @@ th {
   margin-bottom: 1%;
 }
 
+/* line 5, ../Coder/proyectoFinal/scss/_variables.scss */
 #agtruck-fondo {
   background-color: transparent;
   background-image: url(../PNG/agtruck.jpg);
@@ -1149,6 +1354,7 @@ th {
   margin-bottom: 1%;
 }
 
+/* line 5, ../Coder/proyectoFinal/scss/_variables.scss */
 #airtractor2-fondo {
   background-color: transparent;
   background-image: url(../PNG/airtractor2.jpg);
@@ -1162,6 +1368,7 @@ th {
   margin-bottom: 1%;
 }
 
+/* line 5, ../Coder/proyectoFinal/scss/_variables.scss */
 #centurion-fondo {
   background-color: transparent;
   background-image: url(../PNG/centurion.jpg);
@@ -1176,170 +1383,198 @@ th {
 }
 
 @media (max-width: 650px) {
+  /* line 21, ../Coder/proyectoFinal/scss/_variables.scss */
   .desktop {
     display: none;
   }
+  /* line 24, ../Coder/proyectoFinal/scss/_variables.scss */
   .grande {
     height: 500px !important;
   }
-  .compromiso {
+  /* line 27, ../Coder/proyectoFinal/scss/_variables.scss */
+  .main-text {
     font-size: 25px !important;
   }
-  .compromiso2 {
+  /* line 30, ../Coder/proyectoFinal/scss/_variables.scss */
+  .sub-text {
     font-size: 15px !important;
   }
+  /* line 33, ../Coder/proyectoFinal/scss/_variables.scss */
   .fontR {
     font-size: 12px !important;
   }
+  /* line 36, ../Coder/proyectoFinal/scss/_variables.scss */
   #logo {
     width: 160px !important;
   }
+  /* line 39, ../Coder/proyectoFinal/scss/_variables.scss */
   .font-qs {
     font-size: 20px !important;
   }
+  /* line 42, ../Coder/proyectoFinal/scss/_variables.scss */
   .font-qs2 {
     font-size: 16px !important;
   }
+  /* line 45, ../Coder/proyectoFinal/scss/_variables.scss */
   .font-qs3 {
-    font-size: 10px !important;
+    font-size: 15px !important;
   }
 }
 
 @media (min-width: 651px) {
+  /* line 50, ../Coder/proyectoFinal/scss/_variables.scss */
   .desktop {
     display: none;
   }
+  /* line 53, ../Coder/proyectoFinal/scss/_variables.scss */
   .grande {
     height: 600px !important;
   }
-  .compromiso {
+  /* line 56, ../Coder/proyectoFinal/scss/_variables.scss */
+  .main-text {
     font-size: 30px !important;
   }
-  .compromiso2 {
+  /* line 59, ../Coder/proyectoFinal/scss/_variables.scss */
+  .sub-text {
     font-size: 20px !important;
   }
+  /* line 62, ../Coder/proyectoFinal/scss/_variables.scss */
   .fontR {
     font-size: 20px !important;
   }
+  /* line 65, ../Coder/proyectoFinal/scss/_variables.scss */
   #logo {
     width: 170px !important;
   }
+  /* line 68, ../Coder/proyectoFinal/scss/_variables.scss */
   .font-qs {
     font-size: 30px !important;
   }
+  /* line 71, ../Coder/proyectoFinal/scss/_variables.scss */
   .font-qs2 {
     font-size: 25px !important;
   }
+  /* line 74, ../Coder/proyectoFinal/scss/_variables.scss */
   .font-qs3 {
     font-size: 15px !important;
   }
 }
 
 @media (min-width: 767px) {
+  /* line 79, ../Coder/proyectoFinal/scss/_variables.scss */
   .desktop {
     display: block;
   }
+  /* line 82, ../Coder/proyectoFinal/scss/_variables.scss */
   .grande {
     height: 750px !important;
   }
-  .compromiso {
+  /* line 85, ../Coder/proyectoFinal/scss/_variables.scss */
+  .main-text {
     font-size: 35px !important;
   }
-  .compromiso2 {
+  /* line 88, ../Coder/proyectoFinal/scss/_variables.scss */
+  .sub-text {
     font-size: 25px !important;
   }
+  /* line 91, ../Coder/proyectoFinal/scss/_variables.scss */
   .fontR {
     font-size: 1.1vw !important;
   }
+  /* line 94, ../Coder/proyectoFinal/scss/_variables.scss */
   #logo {
     width: 200px !important;
   }
+  /* line 97, ../Coder/proyectoFinal/scss/_variables.scss */
   .font-qs {
-    font-size: 40px;
+    font-size: 40px !important;
   }
+  /* line 100, ../Coder/proyectoFinal/scss/_variables.scss */
   .font-qs2 {
-    font-size: 32px;
+    font-size: 32px !important;
   }
+  /* line 103, ../Coder/proyectoFinal/scss/_variables.scss */
   .font-qs3 {
-    font-size: 17px;
+    font-size: 17px !important;
   }
 }
 
-@media (min-width: 1360px) {
+@media (min-width: 1920px) {
+  /* line 109, ../Coder/proyectoFinal/scss/_variables.scss */
   .desktop {
     display: block;
   }
+  /* line 112, ../Coder/proyectoFinal/scss/_variables.scss */
   .grande {
     height: 1000px !important;
   }
-  .compromiso {
+  /* line 115, ../Coder/proyectoFinal/scss/_variables.scss */
+  .main-text {
     font-size: 60px !important;
   }
-  .compromiso2 {
+  /* line 118, ../Coder/proyectoFinal/scss/_variables.scss */
+  .sub-text {
     font-size: 35px !important;
   }
+  /* line 121, ../Coder/proyectoFinal/scss/_variables.scss */
   .fontR {
     font-size: 1.05vw !important;
   }
+  /* line 124, ../Coder/proyectoFinal/scss/_variables.scss */
   #logo {
     width: 230px !important;
   }
+  /* line 127, ../Coder/proyectoFinal/scss/_variables.scss */
   .font-qs {
-    font-size: 40px;
+    font-size: 40px !important;
   }
+  /* line 130, ../Coder/proyectoFinal/scss/_variables.scss */
   .font-qs2 {
-    font-size: 32px;
+    font-size: 32px !important;
   }
+  /* line 133, ../Coder/proyectoFinal/scss/_variables.scss */
   .font-qs3 {
-    font-size: 17px;
+    font-size: 17px !important;
   }
 }
 
-footer {
-  background-color: #374089;
-}
-
-footer section p {
-  color: white !important;
-}
-
-.div-compromiso {
-  font-weight: 700;
-  text-align: center;
-  height: 200px;
-  background-color: #00865f;
-}
-
-.compromiso {
+/* line 11, ../Coder/proyectoFinal/scss/style.scss */
+.main-text {
   font-family: 'Poppins', sans-serif;
   font-size: 60px;
   color: #ffffff;
 }
 
-.compromiso2 {
+/* line 17, ../Coder/proyectoFinal/scss/style.scss */
+.sub-text {
   font-family: 'Poppins', sans-serif;
   font-size: 32px;
   color: #ffffff;
 }
 
+/* line 24, ../Coder/proyectoFinal/scss/style.scss */
 a {
   text-decoration: none;
 }
 
+/* line 25, ../Coder/proyectoFinal/scss/style.scss */
 a img:hover {
   transform: scale(1.07);
   transition-duration: 1s;
 }
 
+/* line 30, ../Coder/proyectoFinal/scss/style.scss */
 #logo {
   width: 250px;
 }
 
+/* line 33, ../Coder/proyectoFinal/scss/style.scss */
 .fa:hover {
   opacity: 0.7;
   text-decoration: none;
 }
 
+/* line 38, ../Coder/proyectoFinal/scss/style.scss */
 .fa {
   display: flex;
   padding: 20px;
@@ -1350,41 +1585,49 @@ a img:hover {
   transition: .2s ease all;
 }
 
+/* line 49, ../Coder/proyectoFinal/scss/style.scss */
 .fa-facebook {
   background: #f8f9fa;
   color: #3B5998;
 }
 
+/* line 53, ../Coder/proyectoFinal/scss/style.scss */
 .fa-twitter {
   background: #f8f9fa;
   color: #55ACEE;
 }
 
+/* line 57, ../Coder/proyectoFinal/scss/style.scss */
 .fa-linkedin {
   background: #f8f9fa;
   color: #007bb5;
 }
 
+/* line 61, ../Coder/proyectoFinal/scss/style.scss */
 .fa-youtube {
   background: #f8f9fa;
   color: #bb0000;
 }
 
+/* line 65, ../Coder/proyectoFinal/scss/style.scss */
 .fa-instagram {
   background: #f8f9fa;
   color: #E1306C;
 }
 
+/* line 70, ../Coder/proyectoFinal/scss/style.scss */
 #pawneeta {
   background-color: transparent;
   background-image: url(../PNG/PA25.jpg);
 }
 
+/* line 76, ../Coder/proyectoFinal/scss/style.scss */
 #airTractor-2 {
   background-color: transparent;
   background-image: url(../PNG/at2.jpg);
 }
 
+/* line 81, ../Coder/proyectoFinal/scss/style.scss */
 #particles-js {
   background-color: gray;
   background-image: url("");
@@ -1393,6 +1636,7 @@ a img:hover {
   background-position: 50% 50%;
 }
 
+/* line 89, ../Coder/proyectoFinal/scss/style.scss */
 #particles-up {
   position: absolute;
   top: 20%;
@@ -1402,32 +1646,38 @@ a img:hover {
   border-radius: 25px;
 }
 
+/* line 98, ../Coder/proyectoFinal/scss/style.scss */
 .bg-full {
   background-size: cover;
   background-position: 50% 50%;
   position: relative;
 }
 
+/* line 103, ../Coder/proyectoFinal/scss/style.scss */
 .bg-full * {
   z-index: 1;
 }
 
+/* line 106, ../Coder/proyectoFinal/scss/style.scss */
 .grande {
   height: 1000px;
 }
 
+/* line 109, ../Coder/proyectoFinal/scss/style.scss */
 .font {
   font-family: 'Poppins', sans-serif;
   font-size: 15px;
   color: #3a4045;
 }
 
+/* line 113, ../Coder/proyectoFinal/scss/style.scss */
 .fontR {
   font-family: 'Poppins', sans-serif;
   font-size: 1.1vw;
   color: #3a4045;
 }
 
+/* line 117, ../Coder/proyectoFinal/scss/style.scss */
 .bg-full::before {
   content: "";
   background-color: rgba(0, 0, 0, 0.4);
@@ -1438,21 +1688,27 @@ a img:hover {
   height: 100%;
 }
 
+/* line 126, ../Coder/proyectoFinal/scss/style.scss */
 .bg-presupuesto {
   background-image: url(../PNG/dots.jpg);
   background-size: cover;
 }
 
 @media (max-width: 750px) {
+  /* line 130, ../Coder/proyectoFinal/scss/style.scss */
   .carousel {
     display: none;
   }
 }
 
+/* line 135, ../Coder/proyectoFinal/scss/style.scss */
 .bg-nav {
   background-color: #f8f9fa !important;
 }
 
+/* line 138, ../Coder/proyectoFinal/scss/style.scss */
 .bg-blue {
   background-color: #374089 !important;
 }
+
+/*# sourceMappingURL=style.css.map */

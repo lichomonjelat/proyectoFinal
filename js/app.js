@@ -9,36 +9,36 @@ var costoKilometro =(4.6);
 /*--OBTENCION DE DATOS--*/
 var inputNombre = [];    
 function getName(){
-    Nombre = $("#tunombre").val();
+   var Nombre = $("#tunombre").val();
     inputNombre = Nombre;
-localStorage.setItem("Nombre",inputNombre)    
+ 
 
 };
 var inputApellido = [];    
 
 function getLastname(){
-    Apellido = $("#tuapellido").val();
+    var Apellido = $("#tuapellido").val();
     inputApellido = Apellido;
-localStorage.setItem("Apellido", inputApellido);    
+    
 
 };
 var inputServicios = [];    
 function getService(){
-    Servicio = $("#servicios").val();
+    var Servicio = $("#servicios").val();
     inputServicios = Servicio;
-localStorage.setItem("Servicio", inputServicios);
+sessionStorage.setItem("Servicio", inputServicios);
 };
 var inputHectareas = [];    
 function getHectareas(){
-    Hectareas = $("#hectareas").val();
+    var Hectareas = $("#hectareas").val();
     inputHectareas = Hectareas;
-localStorage.setItem("areaTrabajo", inputHectareas);
+sessionStorage.setItem("areaTrabajo", inputHectareas);
 };
 var inputKilometros = [];    
 function getKilometros(){
-    Kilometros = $("#kilometros").val();
+    var Kilometros = $("#kilometros").val();
     inputKilometros = Kilometros;
-localStorage.setItem("distanciaKM", inputKilometros);
+sessionStorage.setItem("distanciaKM", inputKilometros);
 };
 
 function precioSiembra(hectareas, costoSiembra){
@@ -63,50 +63,61 @@ function getData(){
     getName(),getLastname(),getService(),getHectareas(),getKilometros();
 }
 
-$.get( "ajax/https://www.dolarsi.com/api/api.php?type=valoresprincipales", function( data ) {
-    $( ".result" ).html( data );
-    alert( "Load was performed." );
-});
+let dolar_Json = []
+
+let dolarAjaxCall = () => {
+    return $.ajax({
+        url: "https://www.dolarsi.com/api/api.php?type=valoresprincipales",
+        dataType: "json",
+        success: function (response) {
+            for (const iterator of response) {
+                dolar_Json.push(iterator)
+            }
+        },
+        
+    });
+}
+
 
 
 
 /*--PROCESO PRINCIPAL--*/
 
-switch(localStorage.Servicio){
+switch(inputServicios){
     
     
     case "siembra":
-        $("#intro").html("Bienvenido" + " " + localStorage.getItem("Nombre"))
+        $("#intro").html("Bienvenido" + " " + inputNombre)
         $("#select").html("Usted Seleccionó"+ " " + seleccion [0])
-        var hectareas = localStorage.getItem("areaTrabajo");
+        var hectareas = inputHectareas;
         $("#preview").html("Tenes" +" " + hectareas +" "+"hectareas" +" "+"para sembrar")
-        precioSiembra(localStorage.areaTrabajo, costoSiembra)
+        precioSiembra(hectareas, costoSiembra)
         
-        localStorage.clear
+        
         break;
     case "pulverizaciones":
-        $("#intro").html("Bienvenido" + " " + localStorage.getItem("Nombre"))
+        $("#intro").html("Bienvenido" + " " + sessionStorage.getItem("Nombre"))
         $("#select").html("Usted Seleccionó"+ " " + seleccion [1])
-        var hectareas = localStorage.getItem("areaTrabajo");
+        var hectareas = inputHectareas;
         $("#preview").html("Tenes" +" " + hectareas +" "+"hectareas" +" "+"para fumigar")
         precioFumigacion(hectareas, costoFumigacion);
-        localStorage.clear
+       
         break;
     case "fertilizaciones":
-        $("#intro").html("Bienvenido" + " " + localStorage.getItem("Nombre"))
+        $("#intro").html("Bienvenido" + " " + sessionStorage.getItem("Nombre"))
         $("#select").html("Usted Seleccionó"+ " " + seleccion [3])
-        var hectareas = localStorage.getItem("areaTrabajo");
+        var hectareas = sessionStorage.getItem("areaTrabajo");
         $("#preview").html("Tenes" +" " + hectareas +" "+"hectareas" +" "+"para trabajar")
         precioFumigacion(hectareas, costoFerti);
-        localStorage.clear
+        
         break;
     case "traslados":
-        $("#intro").html("Bienvenido" + " " + localStorage.getItem("Nombre"))
+        $("#intro").html("Bienvenido" + " " + sessionStorage.getItem("Nombre"))
         $("#select").html("Usted Seleccionó"+ " " + seleccion [2]) 
-        var kilometros =localStorage.getItem("distanciaKM");
+        var kilometros =sessionStorage.getItem("distanciaKM");
         $("#preview").html("Tenes" +" " + kilometros  +" "+"kilometros para volar") 
         precioKilometro(kilometros, costoKilometro)   
-        localStorage.clear
+        
         break;
 
     default:
@@ -115,15 +126,7 @@ switch(localStorage.Servicio){
 
 /*--PROCESO SECUNDARIO--*/
 
-    switch(localStorage.hectareas){
-
-        case (20):
-            
-
-
-
-    }
-
+    
 /*--PARTICLES-BG--*/
 
 
@@ -138,7 +141,7 @@ $(document).ready(function(){
 $("#submitter").click(function(){
     $("#info").show();
     $("#submitter").hide();
-    window.location.reload()
+    
     
 })
 $("#confirm").click(function(){

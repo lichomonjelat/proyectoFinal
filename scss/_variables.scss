@@ -24,10 +24,10 @@ $font-colorBody:#3a4045;
     .grande{
         height: 500px !important;
     }
-    .compromiso{
+    .main-text{
         font-size: 25px !important;
     }
-    .compromiso2{
+    .sub-text{
         font-size: 15px !important;
     }
     .fontR{
@@ -43,7 +43,7 @@ $font-colorBody:#3a4045;
         font-size: 16px !important;
     }
     .font-qs3{
-        font-size: 10px !important;
+        font-size: 15px !important;
     }
 }
 @media (min-width: 651px) {
@@ -53,10 +53,10 @@ $font-colorBody:#3a4045;
     .grande{
         height: 600px !important;
     }
-    .compromiso{
+    .main-text{
         font-size: 30px !important;
     }
-    .compromiso2{
+    .sub-text{
         font-size: 20px !important;
     }
     .fontR{
@@ -82,10 +82,10 @@ $font-colorBody:#3a4045;
     .grande{
         height: 750px !important;
     }
-    .compromiso{
+    .main-text{
         font-size: 35px !important;
     }
-    .compromiso2{
+    .sub-text{
         font-size: 25px !important;
     }
     .fontR{
@@ -95,16 +95,16 @@ $font-colorBody:#3a4045;
         width: 200px !important;
     }
     .font-qs{
-        font-size: 40px;
+        font-size: 40px !important;
     }
     .font-qs2{
-        font-size: 32px;
+        font-size: 32px !important;
     }
     .font-qs3{
-        font-size: 17px;
+        font-size: 17px !important;
     }
 }
-@media (min-width: 1360px) {
+@media (min-width: 1920px) {
 
     .desktop{
         display: block;
@@ -112,10 +112,10 @@ $font-colorBody:#3a4045;
     .grande{
         height: 1000px !important;
     }
-    .compromiso{
+    .main-text{
         font-size: 60px !important;
     }
-    .compromiso2{
+    .sub-text{
         font-size: 35px !important;
     }
     .fontR{
@@ -125,13 +125,13 @@ $font-colorBody:#3a4045;
         width: 230px !important;
     }
     .font-qs{
-        font-size: 40px;
+        font-size: 40px !important;
     }
     .font-qs2{
-        font-size: 32px;
+        font-size: 32px !important;
     }
     .font-qs3{
-        font-size: 17px;
+        font-size: 17px !important;
     }
     
 }
