@@ -60,36 +60,35 @@
       <div id="particles-up" class="container" style="background-color: white;">
         <div class="row">
           <div class="col">
-            <form>
+            <form id="form">
               <div class="form-group d-flex flex-column flex-grow-1">
                 <label for="tunombre">Nombre</label>
                 <input type="text" id="tunombre" name="nombre" class="form-control" />
                 <small id="nombreHelp" class="form-text text-muted">No compartiremos tu informacion con nadie.</small>
               </div>
               <div class="form-group flex-grow-1">
-                <label>Apellido</label>
+                <label for="tuapellido">Apellido</label>
                 <input type="text" id="tuapellido" name="apellido" class="form-control" />
               </div>
               <div class="form-group flex-grow-1">
                 <label for="servicios">Servicio</label>
-                <select class="form-control" id="servicios">
-                  <option value="siembra">Siembra</option>
-                  <option value="pulverizaciones">Pulverizaciones</option>
-                  <option value="fertilizaciones">Fertilizaciones</option>
-                  <option value="traslados">Traslados</option>
+                <select name="servicio" class="form-control" id="servicios">
+                  <option selected="1" value="siembra">Siembra</option>
+                  <option selected="2" value="pulverizaciones">Pulverizaciones</option>
+                  <option selected="3" value="fertilizaciones">Fertilizaciones</option>
+                  <option selected="4" value="traslados">Traslados</option>
                 </select>
               </div>
               <div class="form-group flex-grow-1">
                 <label>Hectareas</label>
-                <input type="text" id="hectareas" name="hectareas" class="form-control" />
+                <input type="number" id="hectareas" name="hectareas" class="form-control" />
               </div>
               <div class="form-group flex-grow-1">
                 <label>Kilometros</label>
-                <input type="text" id="kilometros" name="kilometros" placeholder="Solamente si selecciona traslados"
+                <input type="number" id="kilometros" name="kilometros" placeholder="Solamente si selecciona traslados"
                   class="form-control" />
               </div>
-              <button id="submitter" type="button" onclick=" getData()" class="btn btn-primary" data-toggle="modal"
-                data-target="#exampleModal">Enviar</button>
+              <button id="submitter" type="submit" class="btn btn-primary" data-toggle="modal" data-target="#modal">Enviar</button>
 
 
             </form>
@@ -100,7 +99,7 @@
 
         </div>
       </div>
-      <div class="modal fade" id="Modal" tabindex="-1" aria-labelledby="ModalLabel" aria-hidden="true">
+      <div class="modal fade" id="modal" tabindex="-1" aria-labelledby="modalLabel" aria-hidden="true">
         <div class="modal-dialog">
           <div class="modal-content">
             <div class="modal-header">
@@ -120,7 +119,7 @@
             </div>
             <div class="modal-footer">
               <button id="close" type="button" class="btn btn-primary" data-dismiss="modal">Cerrar</button>
-              <button id="check" type="button" class="btn btn-success" data-dismiss="modal">Confirmar</button>
+              <a class="btn btn-success" href="contacto.html"> Confirmar</a>
             </div>
           </div>
         </div>
@@ -128,60 +127,7 @@
 
 
       </div>
-      <div id="flota" style="position: absolute;">
-        <div class="container">
-          <div class="row font-nf animate__animated animate__slideInDown">
-            <div class="col-sm-12 col-md-6">
-              <div class="container-nf">
-                <img src="../PNG/pawnee.jpg" alt="" class="rounded-lg image">
-                <div class="overlay1">
-                  <div class="text">PIPER Pawnee 235</div>
-                </div>
-              </div>
-              <p>El más chico de la flota, con 235 caballos, y una capacidad de 550 litros, ideal para realizar lotes
-                chicos</p>
-            </div>
-            <div class="col-sm-12 col-md-6">
-              <div>
-                <div class="container-nf">
-                  <img src="../PNG/agtruck.jpg" alt="" class="rounded-lg image">
-                  <div class="overlay2">
-                    <div class="text">Cessna 288 AGTRUCK</div>
-                  </div>
-                </div>
-                <p>Con 300 caballos, tiene una capacidad de 700 litros, equipado con dispersor para liquidos, y
-                  dispersor de solidos</p>
-              </div>
-            </div>
-            <div class="row font-nf">
-              <div class="col-sm-12 col-md-6">
-                <div>
-                  <div class="container-nf">
-                    <img src="../PNG/airtractor2.jpg" alt="" class="rounded-lg image">
-                    <div class="overlay3">
-                      <div class="text">AirTractor AT-402B</div>
-                    </div>
-                  </div>
-                  <p>La adquisision mas reciente de la empresa, con 650SHP y 402 galones de capacidad, ideal para
-                    grandes extensiones de campo</p>
-                </div>
-              </div>
-              <div class="col-sm-12 col-md-6">
-                <div>
-                  <div class="container-nf">
-                    <img src="../PNG/centurion.jpg" alt="" class="rounded-lg image">
-                    <div class="overlay4">
-                      <div class="text">Cessna T210 Turbo Centurion</div>
-                    </div>
-                  </div>
-                  <p>Con una velocidad crucero de 300km/h, este avion permite estar en cualquier parte del pais en menos
-                    de 6 horas</p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
+      
     </div>
 
     <footer class="page-footer bg-dark">
@@ -255,8 +201,11 @@
     <!-- MDB core JavaScript -->
     <script type="text/javascript"
       src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.0/js/mdb.min.js"></script>
+    <!--SERIALIZE JSON-->
+    <script src="../js/json-serialize.js"></script>
     <!--JAVASCRIPT-->
-    <script src="../js/app2.js"></script>
+    <script src="../js/app.js"></script>
+    
 
 </body>
 
