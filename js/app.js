@@ -8,10 +8,11 @@ var costoFumigacion =(9);
 var costoFerti =(5)
 var costoKilometro =(4.6); 
 
-var $form = $("#form");
+
 
 
 //PROGRAMA//
+var $form = $("#form");
 $(document).ready(function() {
     console.log("documentReady");
   $form.on('submit', function(e){
@@ -21,17 +22,12 @@ $(document).ready(function() {
       let formdata = getFormData($form);
       processFormData(formdata);
         console.log(formdata);
-
-
-
-        
-        
-    } );
-
-
+      whichPlane(formdata);
+      whichPLane2(formdata);
       
 
-  });
+    } );
+});
 //FUNCIONES//
 
 function precioSiembra(hectareas, costoSiembra){
@@ -53,7 +49,6 @@ function precioKilometro(kilometros, costoKilometro){
 
 }  
 function getFormData($form){
-    
     var str = $form.serializeArray();
     return str;
 }
@@ -73,7 +68,7 @@ function getFormValue(formData, inputName){
 
 function processFormData(formdata){
 
-let formservice = getFormValue(formdata, "servicio")
+let formservice = getFormValue(formdata, "servicio");
 
 
 
@@ -121,12 +116,62 @@ let formservice = getFormValue(formdata, "servicio")
 
 
 }
+function whichPlane(formdata){
+    let formhectareas = getFormValue(formdata, "hectareas");
+    
+
+    switch(true){
+
+        case (formhectareas>1 && formhectareas<=300):
+            $("#planes").show();
+            $("#pa25").show();
+            
+        break;
+
+        case (formhectareas>=300 && formhectareas<=799):
+            $("#planes").show();
+            $("#pa25, #c188").show();
+
+        break;
+                        
+        case (formhectareas>=800 && formhectareas<=1000):
+        $("#planes").show();
+        
+        $("#at4t, #c188").show();
+                            
+        break;
+                            
+        case (formhectareas>=1001):
+        $("#planes").show();
+        
+        $("#at4t").show();
+        break;
+
+        default:
+        alert("ingrese una respuesta valida")
+}
+
+}
+function whichPLane2(formdata){
+    let formkm = getFormValue(formdata, "kilometros")
+    console.log(formkm)
+    if (formkm>1) {
+        $("#c210").show();
+    }
+}
+
 
 //PARTICLES-BG//
 particlesJS.load('particles-js', '../js/particles.json',
 function(){
     console.log('particles.json loaded...')
 })
+//ACTIONS//
+$("#close").click(function(){
+    $("#pa25, #c188, #at4t, #c210").hide();
+})
+$('#modal').modal({backdrop: 'static', keyboard: false})  
+
 
 
 
